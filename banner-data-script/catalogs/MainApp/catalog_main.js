@@ -1,4 +1,4 @@
-function feed_banner(handler) {
+function feed_data(handler) {
     handler([
         {
             "image-url": "https://user-images.githubusercontent.com/19699721/216538721-fe64e561-0446-4ee2-a63b-1479380d1ec2.jpg",
