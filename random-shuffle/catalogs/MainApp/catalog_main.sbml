@@ -1,0 +1,17 @@
+=begin catalog
+
+=style number: group=number, random=yes
+
+=begin content
+=(object button: label="1", style=number, style=btn_number)=\
+=(object button: label="2", style=number, style=btn_number)=\
+=(object button: label="3", style=number, style=btn_number)=
+=(object button: label="4", style=number, style=btn_number)=\
+=(object button: label="5", style=number, style=btn_number)=\
+=(object button: label="6", style=number, style=btn_number)=
+=(object button: label="7", style=number, style=btn_number)=\
+=(object button: label="8", style=number, style=btn_number)=\
+=(object button: label="9", style=number, style=btn_number)=
+=end content
+
+=end catalog
