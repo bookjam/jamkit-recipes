@@ -1,0 +1,9 @@
+import themes.sbss
+
+#banner_main {
+    width: 1pw;
+    height: 1pw*9/16;
+    position: abs;
+    gravity: center;
+    content-background-color: $COLOR_LIGHT_GRAY
+}
