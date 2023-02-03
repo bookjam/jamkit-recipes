@@ -1,0 +1,9 @@
+=begin cell
+
+=object image: type=youtube, video-id="${video-id}", quality=high, style=img_youtube
+
+=begin title
+${title}
+=end title
+
+=end cell
