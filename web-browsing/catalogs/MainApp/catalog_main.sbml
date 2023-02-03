@@ -1,0 +1,9 @@
+=begin catalog
+
+=object web: id=web, url="https://www.wikipedia.org", reloads-when-pull=yes, \
+            handles-back-key=yes, edge-swipe-enabled=yes, style=web_main
+
+=object blank: style=blank_top
+=object progress: type=loading, owner=web, style=progress_web
+
+=end catalog
