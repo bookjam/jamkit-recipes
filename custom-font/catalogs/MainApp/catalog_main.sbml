@@ -1,0 +1,5 @@
+=begin catalog
+
+=object label: text="Hello, World!", style=label_font
+
+=end catalog
