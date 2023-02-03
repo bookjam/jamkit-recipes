@@ -1,0 +1,18 @@
+import themes.sbss
+
+#btn_number {
+    width: 60dp;
+    height: 60dp;
+    margin: 0 10dp;
+    label-font-family: $SANS_MEDIUM;
+    label-font-size: 2.0;
+    content-background-color: $COLOR_DARK_WHITE;
+}
+
+/catalog/content {
+    display: block;
+    position: abs;
+    gravity: center;
+    text-align: center;
+    paragraph-spacing: 10dp;
+}

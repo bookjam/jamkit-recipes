@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.fdc2f898-baed-4ac1-8d0a-5d4756ea4e4e,
+    language: en,
+    version: 1.0,
+    title: "random-shuffle",
+    description: "How to shuffle objects randomly"
+}
