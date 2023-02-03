@@ -5,6 +5,6 @@ import themes.sbss
     height: 1pw*9/16;
     position: abs;
     gravity: center;
-    default-color: $COLOR_LIGHT_GRAY;
+    default-color: $COLOR_DARK_WHITE;
     scale-mode: fill;
 }
