@@ -9,4 +9,3 @@ import themes.sbss
     font-family: $SANS_MEDIUM;
     font-size: 3.0;
 }
-
