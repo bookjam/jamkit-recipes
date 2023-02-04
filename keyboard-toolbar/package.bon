@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.f286b0b6-73db-4bb5-b45c-3add38d751a5,
+    language: en,
+    version: 1.0,
+    title: "keyboard-toolbar",
+    description: "How to attach toolbar to keyboard"
+}

@@ -1,0 +1,7 @@
+=begin sbml
+
+=begin right
+=(object button: label="▽", style=btn_action)=
+=end right
+
+=end sbml

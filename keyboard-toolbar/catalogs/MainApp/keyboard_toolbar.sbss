@@ -1,0 +1,16 @@
+import themes.sbss
+
+#btn_action {
+    width: 44dp;
+    height: 44dp;
+    label-font-family: $SANS_MEDIUM;
+    label-font-size: 1.2;
+}
+
+/sbml/right {
+    display: block;
+    position: abs;
+    gravity: right;
+    padding-right: 10dp;
+    text-align: right;
+}

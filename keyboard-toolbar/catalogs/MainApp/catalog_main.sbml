@@ -1,0 +1,7 @@
+=begin catalog
+
+=object textfield: id=text, style=textfield
+
+=object sbml: filename="keyboard_toolbar.sbml", type=toolbar, owner=text, -hidden=yes, style=sbml_toolbar
+
+=end catalog
