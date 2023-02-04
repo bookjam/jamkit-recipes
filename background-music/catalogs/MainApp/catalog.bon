@@ -1,0 +1,10 @@
+{
+    "title": "MainApp Catalog",
+    "version": "1.0",
+	"bgm": "Jingle-Bells-3.mp3",
+	"strings": {
+		"Info": {
+			"ko": "정보"
+		}
+	}
+}
