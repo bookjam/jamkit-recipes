@@ -1,0 +1,16 @@
+=begin catalog
+
+=begin left
+=(object point: group=left, peer-group=right, style=point)=
+=(object point: group=left, peer-group=right, style=point)=
+=(object point: group=left, peer-group=right, style=point)=
+=end left
+
+=begin right
+=(object point: group=right, peer-group=left, style=point)=
+=(object point: group=right, peer-group=left, style=point)=
+=(object point: group=right, peer-group=left, style=point)=
+=(object point: group=right, peer-group=left, style=point)=
+=end right
+
+=end catalog

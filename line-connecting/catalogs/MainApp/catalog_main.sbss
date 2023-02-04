@@ -1,0 +1,31 @@
+import themes.sbss
+
+#point {
+    width: 15dp;
+    height: 15dp;
+    touch-radius: 60dp;
+    line-width: 3dp;
+    content-border-radius: 15dp/2;
+    content-background-color: $COLOR_BLACK;
+}
+
+/catalog {
+    control-touchable: yes;
+    paragraph-spacing: 60dp;
+}
+
+/catalog/left {
+    display: block;
+    position: abs;
+    gravity: left;
+    padding-left: 60dp;
+    text-align: left;
+}
+
+/catalog/right {
+    display: block;
+    position: abs;
+    gravity: right;
+    padding-right: 60dp;
+    text-align: right;
+}
