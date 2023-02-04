@@ -3,7 +3,7 @@ import themes.sbss
 #point {
     width: 15dp;
     height: 15dp;
-    touch-radius: 60dp;
+    touch-radius: 30dp;
     line-width: 3dp;
     content-border-radius: 15dp/2;
     content-background-color: $COLOR_BLACK;
