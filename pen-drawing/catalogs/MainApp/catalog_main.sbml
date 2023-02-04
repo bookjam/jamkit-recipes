@@ -1,0 +1,7 @@
+=begin catalog
+
+=object drawing: id=drawing, style=drawing_main
+
+=object button: label="Clear", action=clear, target=object, object=drawing, style=btn_clear
+
+=end catalog
