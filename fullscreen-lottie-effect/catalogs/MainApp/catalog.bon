@@ -2,8 +2,11 @@
     "title": "MainApp Catalog",
     "version": "1.0",
 	"strings": {
-		"Info": {
-			"ko": "정보"
+		"Press me": {
+			"ko": "눌러보세요"
+		},
+		"Hello there": {
+			"ko": "안녕하세요"
 		}
 	}
 }

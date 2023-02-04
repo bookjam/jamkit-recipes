@@ -2,8 +2,8 @@
     "title": "MainApp Catalog",
     "version": "1.0",
 	"strings": {
-		"Info": {
-			"ko": "정보"
+		"Clear": {
+			"ko": "지우기"
 		}
 	}
 }

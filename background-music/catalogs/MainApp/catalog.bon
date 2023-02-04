@@ -3,8 +3,11 @@
     "version": "1.0",
 	"bgm": "Jingle-Bells-3.mp3",
 	"strings": {
-		"Info": {
-			"ko": "정보"
+		"Play": {
+			"ko": "재생"
+		},
+		"Stop": {
+			"ko": "멈춤"
 		}
 	}
 }

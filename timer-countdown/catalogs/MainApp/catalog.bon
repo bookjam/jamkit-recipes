@@ -2,8 +2,8 @@
     "title": "MainApp Catalog",
     "version": "1.0",
 	"strings": {
-		"Info": {
-			"ko": "정보"
+		"Timer expired": {
+			"ko": "타이머가 만료되었습니다"
 		}
 	}
 }
