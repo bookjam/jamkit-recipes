@@ -1,0 +1,22 @@
+import themes.sbss
+
+#textfield {
+    width: 0.9pw;
+    height: 50dp;
+    position: abs;
+    gravity: top;
+    y: 1sbh+150dp;
+    font-family: $SANS_MEDIUM;
+    font-size: 1.3;
+    content-padding: 0 15dp;
+    content-border-width: 1dp;
+    content-border-color: $COLOR_LIGHT_GRAY;
+}
+
+#sbml_toolbar {
+    width: 1pw;
+    height: 50dp;
+    position: abs;
+    gravity: bottom;
+    content-background-color: $COLOR_DARK_WHITE;
+}
