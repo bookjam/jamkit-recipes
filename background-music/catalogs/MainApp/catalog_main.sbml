@@ -1,0 +1,5 @@
+=begin catalog
+
+=object button: action=bgm, type=bgm, label="Play", selected-label="Stop", style=btn_bgm
+
+=end catalog

@@ -1,0 +1,12 @@
+import themes.sbss
+
+#btn_bgm {
+    width: 120dp;
+    height: 44dp;
+    position: abs;
+    gravity: bottom;
+    y: -(60dp+1eb);
+    label-font-family: $SANS_MEDIUM;
+    label-font-size: 1.3;
+    content-background-color: $COLOR_DARK_WHITE;
+}
