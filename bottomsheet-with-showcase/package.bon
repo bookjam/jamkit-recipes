@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.73d22a9a-6fec-49a4-b7df-f2e9ae6ba124,
+    language: en,
+    version: 1.0,
+    title: "bottomsheet-with-showcase",
+    description: "How to open a bottom sheet with showcase"
+}
