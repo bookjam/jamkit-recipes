@@ -2,8 +2,8 @@
     "title": "MainApp Catalog",
     "version": "1.0",
     "strings": {
-		"Open": {
-			"ko": "열기"
-		}
-	}
+        "Open": {
+            "ko": "열기"
+        }
+    }
 }

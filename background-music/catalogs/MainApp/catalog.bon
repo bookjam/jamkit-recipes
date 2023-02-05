@@ -1,13 +1,13 @@
 {
     "title": "MainApp Catalog",
     "version": "1.0",
-	"bgm": "Jingle-Bells-3.mp3",
-	"strings": {
-		"Play": {
-			"ko": "재생"
-		},
-		"Stop": {
-			"ko": "멈춤"
-		}
-	}
+    "bgm": "Jingle-Bells-3.mp3",
+    "strings": {
+        "Play": {
+            "ko": "재생"
+        },
+        "Stop": {
+            "ko": "멈춤"
+        }
+    }
 }
