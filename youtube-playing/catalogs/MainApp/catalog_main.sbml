@@ -1,6 +1,6 @@
 =begin catalog
 
-=object youtube: id=youtube, video-id="11cta61wi0g", style=youtube
+=object youtube: id=youtube, video-id="pSUydWEqKwE", style=youtube
 
 =object button: owner=youtube, type=play, action=play, target=owner, toggle=yes, \
             label="@{Play}", selected-label="@{Pause}", style=btn_action
