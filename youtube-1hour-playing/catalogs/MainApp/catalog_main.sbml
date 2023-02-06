@@ -1,0 +1,14 @@
+=begin catalog
+
+=object youtube: id=youtube, video-id="pSUydWEqKwE", repeats=yes, begin-time="1:22.500", end-time="4:26", \
+            script-when-playing=on_video_playing, script-when-paused=on_video_paused, style=youtube
+
+=begin timer
+=object label: type=time, format="HH:mm:ss", owner=timer, style=label_timer
+=object timer: id=timer, time=1:00:00, autostart=no, script-when-expired=on_timer_expired
+=end timer
+
+=object button: owner=youtube, type=play, action=play, target=owner, toggle=yes, \
+            label="@{Play}", selected-label="@{Pause}", style=btn_action
+
+=end catalog
