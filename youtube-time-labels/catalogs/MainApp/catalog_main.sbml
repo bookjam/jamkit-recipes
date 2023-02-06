@@ -1,0 +1,11 @@
+=begin catalog
+
+=object youtube: id=youtube, video-id="pSUydWEqKwE", style=youtube
+
+=begin labels
+@{Playng time}: =(object label: owner=youtube, type=time, style=label_time)=
+@{Remaining time}: =(object label: owner=youtube, type=time, inverts-value=yes, style=label_time)=
+@{Duration}: =(object label: owner=youtube, type=duration, style=label_time)=
+=end labels
+
+=end catalog

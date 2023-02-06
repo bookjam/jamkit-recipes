@@ -1,0 +1,26 @@
+import themes.sbss
+
+#youtube {
+    width: 1pw;
+    height: 1pw*9/16;
+    scale-mode: fill;
+}
+
+#label_time {
+    width: 50dp;
+    height: 30dp;
+    font-family: $SANS_MEDIUM;
+    font-size: 1.1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/catalog {
+    margin-top: 1sbh;
+}
+
+/catalog/labels {
+    margin: 40dp 10dp 0 10dp;
+    font-family: $SANS_MEDIUM;
+    font-size: 1.1;
+}
