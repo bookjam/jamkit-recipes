@@ -1,0 +1,7 @@
+=begin catalog
+
+=object youtube: id=youtube, video-id="pSUydWEqKwE", style=youtube
+
+=object progress: owner=youtube, type=time, style=progress_time
+
+=end catalog
