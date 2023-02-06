@@ -1,0 +1,6 @@
+=begin catalog
+
+=object progress: owner=timer, type=time, style=progress_timer
+=object timer: id=timer, time=1:00, autostart=yes, script-when-expired=on_timer_expired
+
+=end catalog
