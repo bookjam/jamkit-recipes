@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.a6413850-de12-4cc1-96c5-ade47d4ca7a8,
+    language: en,
+    version: 1.0,
+    title: "camera-position",
+    description: "How to toggle camera position"
+}
