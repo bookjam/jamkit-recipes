@@ -8,7 +8,7 @@ import themes.sbss
     pen-width: 2dp;
 }
 
-#btn_clear {
+#btn_action {
     width: 120dp;
     height: 44dp;
     position: abs;
