@@ -1,0 +1,19 @@
+import themes.sbss
+
+#youtube {
+    width: 1pw;
+    height: 1pw*9/16;
+    scale-mode: fill;
+}
+
+#slider_time {
+    width: 0.9pw;
+    height: 30dp;
+    position: abs;
+    gravity: bottom;
+    y: -(60dp+1eb);
+}
+
+/catalog {
+    margin-top: 1sbh;
+}
