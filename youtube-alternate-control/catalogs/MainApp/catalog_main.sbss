@@ -1,0 +1,31 @@
+import themes.sbss
+
+#youtube {
+    width: 1pw;
+    height: 1pw*9/16;
+    scale-mode: fill;
+}
+
+#btn_action {
+    width: 100dp;
+    height: 44dp;
+    margin: 0 5dp;
+    label-font-family: $SANS_MEDIUM;
+    label-font-size: 1.3;
+    content-background-color: $COLOR_DARK_WHITE;
+}
+
+/catalog {
+    margin-top: 1sbh;
+}
+
+/catalog/control {
+    display: none;
+}
+
+/catalog/control/buttons {
+    display: block;
+    position: abs;
+    gravity: center;
+    text-align: center;
+}
