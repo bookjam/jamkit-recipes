@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.5a26f66c-2776-477c-a4e7-74f98839448d,
+    language: en,
+    version: 1.0,
+    title: "text-to-speech",
+    description: "How to speak a text sentences"
+}
