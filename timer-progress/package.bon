@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.b168d198-2a7d-4fb1-8d63-be5d49e7b139,
+    language: en,
+    version: 1.0,
+    title: "timer-progress",
+    description: "How to use a progress with timer"
+}
