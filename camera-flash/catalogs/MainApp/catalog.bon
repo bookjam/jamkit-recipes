@@ -2,11 +2,11 @@
     "title": "MainApp Catalog",
     "version": "1.0",
     "strings": {
-        "Front": {
-            "ko": "전면"
+        "Turn on": {
+            "ko": "켜기"
         },
-        "Back": {
-            "ko": "후면"
+        "Turn off": {
+            "ko": "끄기"
         }
     }
 }
