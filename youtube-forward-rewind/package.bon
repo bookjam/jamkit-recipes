@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.16e25984-320a-4790-8c3a-c0f1ca363700,
+    language: en,
+    version: 1.0,
+    title: "youtube-seeking",
+    description: "How to seek play time in a video of YouTube"
+}
