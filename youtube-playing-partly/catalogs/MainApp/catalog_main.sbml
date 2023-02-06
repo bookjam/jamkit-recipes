@@ -1,0 +1,8 @@
+=begin catalog
+
+=object youtube: id=youtube, video-id="pSUydWEqKwE", begin-time="1:22.500", end-time="4:26", style=youtube
+
+=object button: owner=youtube, type=play, action=play, target=owner, toggle=yes, \
+            label="@{Play}", selected-label="@{Pause}", style=btn_action
+
+=end catalog
