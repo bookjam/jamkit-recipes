@@ -1,0 +1,33 @@
+import themes.sbss
+
+#youtube {
+    width: 1pw;
+    height: 1pw*9/16;
+    scale-mode: fill;
+}
+
+#label_timer {
+    width: 200dp;
+    height: 60dp;
+    font-family: $SANS_MEDIUM;
+    font-size: 3.0;
+}
+
+#btn_action {
+    width: 120dp;
+    height: 44dp;
+    position: abs;
+    gravity: bottom;
+    y: -(60dp+1eb);
+    label-font-family: $SANS_MEDIUM;
+    label-font-size: 1.3;
+    content-background-color: $COLOR_DARK_WHITE;
+}
+
+/catalog {
+    margin-top: 1sbh;
+}
+
+/catalog/timer {
+    margin-top: 40dp;
+}
