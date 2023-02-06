@@ -1,4 +1,12 @@
 {
     "title": "MainApp Catalog",
-    "version": "1.0"
+    "version": "1.0",
+    "strings": {
+        "Front": {
+            "ko": "전면"
+        },
+        "Back": {
+            "ko": "후면"
+        }
+    }
 }
