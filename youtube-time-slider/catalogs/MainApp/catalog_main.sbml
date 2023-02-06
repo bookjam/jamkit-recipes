@@ -2,7 +2,6 @@
 
 =object youtube: id=youtube, video-id="pSUydWEqKwE", style=youtube
 
-=object slider: owner=youtube, type=time, action=seek, target=owner, time=#_, \
-            label="@{Play}", selected-label="@{Pause}", style=slider_time
+=object slider: owner=youtube, type=time, action=seek, target=owner, time=#_, style=slider_time
 
 =end catalog
