@@ -5,5 +5,4 @@ import themes.sbss
     height: 1pw*9/16;
     position: abs;
     gravity: center;
-    content-background-color: $COLOR_LIGHT_GRAY;
 }

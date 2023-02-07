@@ -6,3 +6,7 @@ import themes.sbss
     position: abs;
     gravity: center;
 }
+
+/cell {
+    page-background-color: $COLOR_LIGHT_GRAY;
+}
