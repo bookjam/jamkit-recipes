@@ -6,3 +6,13 @@ import themes.sbss
     gravity: center;
     default-color: $COLOR_DARK_WHITE;
 }
+
+/catalog/copyright {
+    display: block;
+    position: absolute;
+    gravity: bottom;
+    y: -(1eb+10dp);
+    text-align: center;
+    font-family: $SANS_REGULAR;
+    font-size: 0.8;
+}
