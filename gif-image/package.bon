@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.789d0987-82dd-46f8-8a79-956e79574674,
+    language: en,
+    version: 1.0,
+    title: "gif-image",
+    description: "How to display a gif image"
+}

@@ -1,0 +1,5 @@
+=begin catalog
+
+=object image: filename="sample.gif", style=img_gif
+
+=end catalog

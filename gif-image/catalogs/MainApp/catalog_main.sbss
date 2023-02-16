@@ -1,0 +1,8 @@
+import themes.sbss
+
+#img_gif {
+    width: 0.7pw;
+    position: abs;
+    gravity: center;
+    default-color: $COLOR_DARK_WHITE;
+}
