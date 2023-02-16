@@ -2,4 +2,8 @@
 
 =object image: filename="sample.gif", style=img_gif
 
+=begin copyright
+© NickRewind at giphy.com
+=end copyright
+
 =end catalog
