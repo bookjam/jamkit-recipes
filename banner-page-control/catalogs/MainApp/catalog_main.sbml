@@ -1,0 +1,5 @@
+=begin catalog
+
+=object banner: data-script=feed_data, alternate-name=main, has-page-control=yes, style=banner_main
+
+=end catalog
