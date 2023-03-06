@@ -1,5 +1,5 @@
 =begin catalog
 
-=object button: label="@{Play}", selected-label="@{Stop}", action=bgm, type=bgm, style=btn_bgm
+=object button: label=@{Play}, selected-label=@{Stop}, action=bgm, type=bgm, style=btn_bgm
 
 =end catalog

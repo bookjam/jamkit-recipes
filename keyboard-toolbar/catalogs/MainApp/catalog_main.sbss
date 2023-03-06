@@ -3,7 +3,7 @@ import themes.sbss
 #textfield {
     width: 0.9pw;
     height: 50dp;
-    position: abs;
+    position: absolute;
     gravity: top;
     y: 1sbh+150dp;
     font-family: $SANS_MEDIUM;
@@ -16,7 +16,7 @@ import themes.sbss
 #sbml_toolbar {
     width: 1pw;
     height: 50dp;
-    position: abs;
+    position: absolute;
     gravity: bottom;
     content-background-color: $COLOR_DARK_WHITE;
 }

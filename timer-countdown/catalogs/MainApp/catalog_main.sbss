@@ -3,7 +3,7 @@ import themes.sbss
 #label_timer {
     width: 200dp;
     height: 60dp;
-    position: abs;
+    position: absolute;
     gravity: center;
     text-align: center;
     font-family: $SANS_MEDIUM;

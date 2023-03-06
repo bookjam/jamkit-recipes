@@ -11,7 +11,7 @@ import themes.sbss
 
 /catalog/content {
     display: block;
-    position: abs;
+    position: absolute;
     gravity: center;
     text-align: center;
     paragraph-spacing: 10dp;

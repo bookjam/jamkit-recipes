@@ -16,7 +16,7 @@ import themes.sbss
 
 /catalog/left {
     display: block;
-    position: abs;
+    position: absolute;
     gravity: left;
     padding-left: 60dp;
     text-align: left;
@@ -24,7 +24,7 @@ import themes.sbss
 
 /catalog/right {
     display: block;
-    position: abs;
+    position: absolute;
     gravity: right;
     padding-right: 60dp;
     text-align: right;

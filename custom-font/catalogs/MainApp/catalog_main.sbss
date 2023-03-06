@@ -3,6 +3,6 @@ import themes.sbss
 #label_font {
     font-family: "UhBee ZZIBA";
     font-size: 2.0;
-    position: abs;
+    position: absolute;
     gravity: center;
 }
