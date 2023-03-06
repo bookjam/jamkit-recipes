@@ -1,7 +1,7 @@
 =begin catalog
 
-=object button: label="@{Press me}", action=toast, message="@{Hello there}", style=btn_action
+=object button: label=@{Press me}, action=toast, message=@{Hello there}, style=btn_action
 
-=object effect: type=lottie, filename="12897-snow-santa.json", style=effect_fullscreen
+=object effect: type=lottie, filename=12897-snow-santa.json, style=effect_fullscreen
 
 =end catalog

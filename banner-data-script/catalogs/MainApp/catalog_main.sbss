@@ -3,6 +3,6 @@ import themes.sbss
 #banner_main {
     width: 1pw;
     height: 1pw*9/16;
-    position: abs;
+    position: absolute;
     gravity: center;
 }

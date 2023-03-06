@@ -9,7 +9,7 @@ import themes.sbss
 
 /sbml/right {
     display: block;
-    position: abs;
+    position: absolute;
     gravity: right;
     padding-right: 10dp;
     text-align: right;

@@ -3,7 +3,7 @@ import themes.sbss
 #btn_action {
     width: 120dp;
     height: 44dp;
-    position: abs;
+    position: absolute;
     gravity: center;
     label-font-family: $SANS_MEDIUM;
     label-font-size: 1.3;

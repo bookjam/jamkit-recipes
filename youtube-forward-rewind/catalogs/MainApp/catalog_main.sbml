@@ -3,10 +3,10 @@
 =object youtube: id=youtube, video-id="pSUydWEqKwE", style=youtube
 
 =begin buttons
-=(object button: label="@{Rewind}", action=rewind, target=object, object=youtube, seconds=10, style=btn_action)=\
-=(object button: label="@{Play}", selected-label="@{Pause}", \
+=(object button: label=@{Rewind}, action=rewind, target=object, object=youtube, seconds=10, style=btn_action)=\
+=(object button: label=@{Play}, selected-label=@{Pause}, \
             owner=youtube, type=play, action=play, target=owner, toggle=yes, style=btn_action)=\
-=(object button: label="@{Forward}", action=forward, target=object, object=youtube, seconds=10, style=btn_action)=
+=(object button: label=@{Forward}, action=forward, target=object, object=youtube, seconds=10, style=btn_action)=
 =end buttons
 
 =end catalog

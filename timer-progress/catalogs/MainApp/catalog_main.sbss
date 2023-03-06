@@ -3,6 +3,6 @@ import themes.sbss
 #progress_timer {
     width: 0.9pw;
     height: 30dp;
-    position: abs;
+    position: absolute;
     gravity: center;
 }

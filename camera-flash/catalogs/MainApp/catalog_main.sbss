@@ -8,7 +8,7 @@ import themes.sbss
 #btn_action {
     width: 120dp;
     height: 44dp;
-    position: abs;
+    position: absolute;
     gravity: bottom;
     y: -(60dp+1eb);
     label-font-family: $SANS_MEDIUM;

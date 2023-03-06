@@ -3,7 +3,7 @@ import themes.sbss
 #btn_banner {
     width: 1pw;
     height: 1ph;
-    position: abs;
+    position: absolute;
     gravity: center;
 }
 
