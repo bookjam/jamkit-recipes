@@ -1,0 +1,41 @@
+import themes.sbss
+
+#label_example {
+    width: 200dp;
+    height: 70dp;
+    font-family: @{$SANS_MEDIUM};
+    font-size: 1.2;
+    text-align: center;
+    content-background-image: background_image_stretched.png;
+}
+
+#label_example_01 {
+    style: label_example;
+    background-scale-mode: fit;
+}
+
+#label_example_02 {
+    style: label_example;
+    background-scale-mode: fill;
+}
+
+#label_example_03 {
+    style: label_example;
+    background-scale-mode: stretch;
+}
+
+/catalog/content {
+    margin-top: 1sbh+60dp;
+    margin-bottom: 30dp+1eb
+}
+
+/catalog/content/example {
+    margin-bottom: 40dp;
+    text-align: center;
+}
+
+/catalog/content/example/description {
+    margin-top: 10dp;
+    font-family: @{$SANS_LIGHT};
+    font-size: 0.9;
+}
