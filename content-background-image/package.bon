@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.86039ff8-b345-466b-bb30-e30b565cb493,
+    language: en,
+    version: 1.0,
+    title: "content-background-image",
+    description: "How to display background image for objects"
+}

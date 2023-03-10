@@ -1,0 +1,28 @@
+=begin catalog
+
+=begin content
+
+=begin example
+=(object label: text=@{Label}, style=label_example_01)=
+=begin description
+background-scale-mode: fit
+=end description
+=end example
+
+=begin example
+=(object label: text=@{Label}, style=label_example_02)=
+=begin description
+background-scale-mode: fill
+=end description
+=end example
+
+=begin example
+=(object label: text=@{Label}, style=label_example_03)=
+=begin description
+background-scale-mode: stretch
+=end description
+=end example
+
+=end content
+
+=end catalog
