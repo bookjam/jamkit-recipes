@@ -1,0 +1,238 @@
+=begin catalog
+
+=begin content
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_01)=
+=begin description
+width: 140dp, height: 44dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_02)=
+=begin description
+height: 44dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_03)=
+=begin description
+height: 44dp, content-padding: 0 20dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_04)=
+=begin description
+width: 140dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_05)=
+=begin description
+width: 140dp, content-padding: 20dp 0
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_06)=
+=begin description
+@{None}
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_07)=
+=begin description
+content-padding: 20dp 20dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_08)=
+=begin description
+content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_09)=
+=begin description
+width: 140dp, content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_10)=
+=begin description
+height: 44dp, content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, style=btn_example_11)=
+=begin description
+content-size: 170dp 30dp, content-padding: 20dp 20dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_21)=
+=begin description
+width: 140dp, height: 44dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_22)=
+=begin description
+height: 44dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_23)=
+=begin description
+height: 44dp, content-padding: 0 20dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_24)=
+=begin description
+width: 140dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_25)=
+=begin description
+width: 140dp, content-padding: 20dp 0
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_26)=
+=begin description
+@{None}
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_27)=
+=begin description
+content-padding: 20dp 20dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_28)=
+=begin description
+content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_29)=
+=begin description
+width: 140dp, content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_30)=
+=begin description
+height: 44dp, content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: image=icon_option_checked.png, style=btn_example_31)=
+=begin description
+content-size: 170dp 30dp, content-padding: 20dp 20dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_41)=
+=begin description
+width: 140dp, height: 44dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_42)=
+=begin description
+height: 44dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_43)=
+=begin description
+height: 44dp, content-padding: 0 20dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_44)=
+=begin description
+width: 140dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_45)=
+=begin description
+width: 140dp, content-padding: 20dp 0
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_46)=
+=begin description
+@{None}
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_47)=
+=begin description
+content-padding: 20dp 20dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_48)=
+=begin description
+content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_49)=
+=begin description
+width: 140dp, content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_50)=
+=begin description
+height: 44dp, content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object button: label=@{Button}, image=icon_option_checked.png, style=btn_example_51)=
+=begin description
+content-size: 170dp 30dp, content-padding: 20dp 20dp
+=end description
+=end example
+
+=end content
+
+=end catalog

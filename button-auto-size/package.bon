@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.33873c4d-69a7-4acc-8fd0-13a97a7f0e87,
+    language: en,
+    version: 1.0,
+    title: "button-auto-size",
+    description: "How to calculate button size automatically"
+}
