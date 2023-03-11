@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.c2fb85e3-227c-498b-a704-fa5fe2af247a,
+    language: en,
+    version: 1.0,
+    title: "label-auto-size",
+    description: "How to calculate label size automatically"
+}
