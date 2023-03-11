@@ -1,0 +1,20 @@
+=begin catalog
+
+=object sbml: id=sbml.button, filename=button.sbml, style=sbml_button
+
+=begin options: form=options
+=begin center
+=(object checkbox: id=enabled, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=enabled|\
+@{Enabled}\
+]=\
+=(object checkbox: id=selected, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=selected|\
+@{Selected}\
+]=
+=end center
+=end options
+
+=end catalog

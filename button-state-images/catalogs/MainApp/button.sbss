@@ -1,0 +1,15 @@
+import ~/themes.sbss
+
+#btn_action {
+    width: 200dp;
+    height: 70dp;
+    position: absolute;
+    gravity: center;
+    background-scale-mode: stretch;
+    label-font-family: @{$SANS_MEDIUM};
+    label-font-size: 1.2;
+    label-color: $COLOR_WHITE;
+    highlighted-label-color: $COLOR_DARK_GRAY;
+    disabled-label-color: $COLOR_LIGHT_GRAY;
+    content-spacing: 10dp;
+}
