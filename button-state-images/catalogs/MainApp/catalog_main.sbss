@@ -1,0 +1,46 @@
+import themes.sbss
+
+#sbml_button {
+    width: 0.8pw;
+    height: 200dp;
+    margin-top: 1sbh+60dp;
+    content-border-width: 1dp;
+    content-border-color: $COLOR_LIGHT_GRAY;
+    content-border-radius: 10dp;
+}
+
+#checkbox_option {
+    width: 30dp;
+    height: 30dp;
+    margin: 0 5dp 0 15dp;
+    image: icon_option_unchecked.png;
+    selected-image: icon_option_checked.png;
+    vertical-align: middle;
+}
+
+#btn_generate {
+    width: 120dp;
+    height: 36dp;
+    margin-top: 30dp;
+    label-font-family: @{$SANS_LIGHT};
+    label-font-size: 1.1;
+    label-color: $COLOR_BLACK;
+    highlighted-label-color: $COLOR_DARK_GRAY;
+    content-border-width: 1dp;
+    content-border-color: $COLOR_LIGHT_GRAY;
+    content-border-radius: 10dp;
+}
+
+/catalog/options {
+    margin-top: 30dp;
+    font-family: @{$SANS_REGULAR};
+    font-size: 1.1;
+    text-align: center;
+}
+
+/catalog/options {
+    margin-top: 30dp;
+    font-family: @{$SANS_REGULAR};
+    font-size: 1.1;
+    text-align: center;
+}

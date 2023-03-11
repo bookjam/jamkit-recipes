@@ -1,0 +1,10 @@
+=begin sbml
+
+=object button: enabled="${enabled}", selected="${selected}", script=show_info, \
+            label=@{Button}, highlighted-label=@{Highlighted}, selected-label=@{Selected}, disabled-label=@{Disabled}, \
+            image=icon_option_unchecked.png, selected-image=icon_option_checked.png, disabled-image=icon_option_unchecked.png, \
+            content-background-image=btn_normal_stretched.png, highlighted-background-image=btn_highlighted_stretched.png, \
+            selected-background-image=btn_selected_stretched.png, disabled-background-image=btn_disabled_stretched.png, \
+            style=btn_action
+
+=end sbml
