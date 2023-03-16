@@ -1,0 +1,41 @@
+=begin catalog
+
+=object sbml: id=sbml.button, filename=button.sbml, style=sbml_button
+
+=begin options: form=options
+=begin states
+=(object checkbox: id=enabled, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_state)=\
+=[: action=toggle, target=object, object=enabled|\
+@{Enabled}\
+]=\
+=(object checkbox: id=selected, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_state)=\
+=[: action=toggle, target=object, object=selected|\
+@{Selected}\
+]=
+=end states
+=begin option
+=(object checkbox: id=hide-when-disabled, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=hide-when-disabled|\
+@{Use =[bold|hide-when-disabled]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=disable-when-selected, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=disable-when-selected|\
+@{Use =[bold|disable-when-selected]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=hide-when-selected, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=hide-when-selected|\
+@{Use =[bold|hide-when-selected]= property}\
+]=
+=end option
+=end options
+
+=end catalog

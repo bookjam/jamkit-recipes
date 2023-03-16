@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.6cffc61f-812a-4040-81fc-6ba081bcb897,
+    language: en,
+    version: 1.0,
+    title: "button-state-trigers",
+    description: "How to trigger button states"
+}
