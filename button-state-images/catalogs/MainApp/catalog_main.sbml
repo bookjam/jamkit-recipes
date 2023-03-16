@@ -3,18 +3,46 @@
 =object sbml: id=sbml.button, filename=button.sbml, style=sbml_button
 
 =begin options: form=options
-=begin center
+=begin states
 =(object checkbox: id=enabled, value-when-selected=yes, value-when-deselected=no, selected=yes, \
-            script=generate, form=options, style=checkbox_option)=\
+            script=generate, form=options, style=checkbox_state)=\
 =[: action=toggle, target=object, object=enabled|\
 @{Enabled}\
 ]=\
 =(object checkbox: id=selected, value-when-selected=yes, value-when-deselected=no, \
-            script=generate, form=options, style=checkbox_option)=\
+            script=generate, form=options, style=checkbox_state)=\
 =[: action=toggle, target=object, object=selected|\
 @{Selected}\
 ]=
-=end center
+=end states
+=begin option
+=(object checkbox: id=content-background-image, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=content-background-image|\
+@{Use =[bold|content-background-image]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=highlighted-background-image, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=highlighted-background-image|\
+@{Use =[bold|highlighted-background-image]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=selected-background-image, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=selected-background-image|\
+@{Use =[bold|selected-background-image]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=disabled-background-image, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=disabled-background-image|\
+@{Use =[bold|disabled-background-image]= property}\
+]=
+=end option
 =end options
 
 =end catalog

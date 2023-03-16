@@ -1,9 +1,7 @@
 function generate(data) {
-    view.object("sbml.button").action("load", {
+    view.object("sbml.button").action("load", Object.assign({}, data, {
         "filename": "button.sbml",
-        "enabled": data["enabled"],
-        "selected": data["selected"],
-    })
+    }));
 }
 
 function show_info() {

@@ -1,6 +1,6 @@
 import ~/themes.sbss
 
-#btn_action {
+#btn_example {
     width: 200dp;
     height: 70dp;
     position: absolute;
@@ -8,8 +8,32 @@ import ~/themes.sbss
     background-scale-mode: stretch;
     label-font-family: @{$SANS_MEDIUM};
     label-font-size: 1.2;
-    label-color: $COLOR_WHITE;
+    label-color: $COLOR_DARK_WHITE;
     highlighted-label-color: $COLOR_DARK_GRAY;
     disabled-label-color: $COLOR_LIGHT_GRAY;
     content-spacing: 10dp;
 }
+
+if "${content-background-image}" != "no"
+    #btn_example {
+        content-background-image: btn_normal_stretched.png;;
+    }
+end
+
+if "${highlighted-background-image}" != "no"
+    #btn_example {
+        highlighted-background-image: btn_highlighted_stretched.png;;
+    }
+end
+
+if "${selected-background-image}" != "no"
+    #btn_example {
+        selected-background-image: btn_selected_stretched.png;;
+    }
+end
+
+if "${disabled-background-image}" != "no"
+    #btn_example {
+        disabled-background-image: btn_disabled_stretched.png;;
+    }
+end
