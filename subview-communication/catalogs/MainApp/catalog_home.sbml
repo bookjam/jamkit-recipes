@@ -1,0 +1,7 @@
+=begin catalog: script-when-loaded=on_loaded
+
+=begin content
+${SUBVIEW}
+=end content
+
+=end catalog

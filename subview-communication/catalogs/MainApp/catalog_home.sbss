@@ -1,0 +1,14 @@
+import themes.sbss
+
+/catalog {
+    page-background-color: $THEME_COLOR_BACKGROUND;
+    text-color: $THEME_COLOR_TEXT;
+}
+
+/catalog/content {
+    display: block;
+    position: absolute;
+    gravity: center;
+    font-size: 1.2;
+    text-align: center;
+}

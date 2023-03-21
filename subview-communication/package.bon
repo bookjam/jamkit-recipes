@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.12366ae6-c829-4ae9-911c-7410a92c3fb2,
+    language: en,
+    version: 1.0,
+    title: "subview-communication",
+    description: "How to communicate between subviews"
+}
