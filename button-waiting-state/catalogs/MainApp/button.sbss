@@ -1,0 +1,44 @@
+import ~/themes.sbss
+
+#btn_example {
+    width: 200dp;
+    height: 70dp;
+    position: absolute;
+    gravity: center;
+    label-font-family: @{$SANS_MEDIUM};
+    label-font-size: 1.2;
+    label-color: $COLOR_DARK_WHITE;
+    highlighted-label-color: $COLOR_DARK_GRAY;
+    disabled-label-color: $COLOR_LIGHT_GRAY;
+    content-spacing: 10dp;
+    content-background-image: btn_normal_stretched.png;
+    highlighted-background-image: btn_highlighted_stretched.png;
+    selected-background-image: btn_selected_stretched.png;
+    disabled-background-image: btn_disabled_stretched.png;
+    background-scale-mode: stretch;
+}
+
+if "${waiting-label}" == "yes"
+    #btn_example {
+        waiting-label: @{Waiting};
+    }
+end
+
+if "${waiting-image}" == "yes"
+    #btn_example {
+        waiting-image: btn_waiting.png;
+    }
+end
+
+if "${waiting-effect}" == "yes"
+    #btn_example {
+        waiting-effect: waiting.json;
+        waiting-effect-size: 80dp 80dp;
+    }
+end
+
+if "${disables-when-wait}" == "no"
+    #btn_example {
+        disables-when-wait: no;
+    }
+end

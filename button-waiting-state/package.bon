@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.61bc2314-82e0-4fd2-9917-ac44c49715cf,
+    language: en,
+    version: 1.0,
+    title: "button-waiting-state",
+    description: "How to make a button waiting state"
+}

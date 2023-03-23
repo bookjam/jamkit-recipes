@@ -1,0 +1,53 @@
+=begin catalog
+
+=object sbml: id=sbml.button, filename=button.sbml, style=sbml_button
+
+=begin options: form=options
+=begin states
+=(object checkbox: id=enabled, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_state)=\
+=[: action=toggle, target=object, object=enabled|\
+@{Enabled}\
+]=\
+=(object checkbox: id=selected, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_state)=\
+=[: action=toggle, target=object, object=selected|\
+@{Selected}\
+]=
+=end states
+=begin option
+=(object checkbox: id=waiting-label, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=waiting-label|\
+@{Use =[bold|waiting-label]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=waiting-image, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=waiting-image|\
+@{Use =[bold|waiting-image]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=waiting-effect, value-when-selected=yes, value-when-deselected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=waiting-effect|\
+@{Use =[bold|waiting-effect]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=disables-when-wait, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=disables-when-wait|\
+@{Use =[bold|disables-when-wait]= property}\
+]=
+=end option
+=end options
+
+=begin actions
+=(object button: label=@{Wait}, script=wait, style=btn_action)=\
+=(object button: label=@{Done}, script=done, style=btn_action)=
+=end actions
+
+=end catalog
