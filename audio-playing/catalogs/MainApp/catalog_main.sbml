@@ -1,0 +1,11 @@
+=begin catalog
+
+=object audio: id=audio, filename="Alex-Productions - Jazz Cooking _ Gourmet.mp3"
+
+=object effect: filename="equalizer.json", autoplay=no, \
+            owner=audio, type=play, style=effect_equalizer
+
+=object button: label=@{Play}, selected-label=@{Pause}, \
+            owner=audio, type=play, action=play, target=owner, toggle=yes, style=btn_action
+
+=end catalog
