@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.fcc7c6a4-3976-4ab6-add5-bbd4ded37bfd,
+    language: en,
+    version: 1.0,
+    title: "audio-playing",
+    description: "How to play an audio stream"
+}
