@@ -1,0 +1,15 @@
+{
+    "title": "MainApp Catalog",
+    "version": "1.0",
+    "strings": {
+        "Playing time": {
+            "ko": "재생 시간"
+        },
+        "Remaining time": {
+            "ko": "남은 시간"
+        },
+        "Duration": {
+            "ko": "영상 길이"
+        }
+    }
+}
