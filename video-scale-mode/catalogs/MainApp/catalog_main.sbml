@@ -1,0 +1,11 @@
+=begin catalog
+
+=object video: id=video, filename="sample.mp4", autoplay=yes, repeats=yes, style=video
+
+=begin actions
+=(object button: label="fill", script=change_to_fill, style=btn_action)=\
+=(object button: label="fit", script=change_to_fit, style=btn_action)=\
+=(object button: label="scale", script=change_to_scale, style=btn_action)=
+=end actions
+
+=end catalog
