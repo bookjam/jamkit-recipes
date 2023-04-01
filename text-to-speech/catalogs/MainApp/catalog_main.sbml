@@ -1,5 +1,7 @@
 =begin catalog
 
+=begin actions
 =object button: label=@{Speak}, script=speak_words, style=btn_action
+=end actions
 
 =end catalog

@@ -5,6 +5,8 @@ import themes.sbss
     height: 44dp;
     label-font-family: $SANS_MEDIUM;
     label-font-size: 1.2;
+    label-color: $COLOR_BLACK;
+    highlighted-label-color: $COLOR_GRAY;
 }
 
 /sbml/right {

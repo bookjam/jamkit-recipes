@@ -2,6 +2,8 @@
 
 =object drawing: id=drawing, style=drawing_main
 
+=begin actions
 =object button: label=@{Clear}, action=clear, target=object, object=drawing, style=btn_action
+=end actions
 
 =end catalog

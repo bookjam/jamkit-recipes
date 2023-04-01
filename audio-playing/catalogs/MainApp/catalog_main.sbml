@@ -5,7 +5,9 @@
 =object effect: filename="equalizer.json", autoplay=no, \
             owner=audio, type=play, style=effect_equalizer
 
+=begin actions
 =object button: label=@{Play}, selected-label=@{Pause}, \
             owner=audio, type=play, action=play, target=owner, toggle=yes, style=btn_action
+=end actions
 
 =end catalog

@@ -16,24 +16,24 @@
 ]=
 =end states
 =begin option
-=(object checkbox: id=hide-when-disabled, value-when-selected=yes, value-when-deselected=no, \
+=(object checkbox: id=hides-when-disabled, value-when-selected=yes, value-when-deselected=no, \
             script=generate, form=options, style=checkbox_option)=\
-=[: action=toggle, target=object, object=hide-when-disabled|\
-@{Use =[bold|hide-when-disabled]= property}\
+=[: action=toggle, target=object, object=hides-when-disabled|\
+@{Use =[bold|hides-when-disabled]= property}\
 ]=
 =end option
 =begin option
-=(object checkbox: id=disable-when-selected, value-when-selected=yes, value-when-deselected=no, \
+=(object checkbox: id=disables-when-selected, value-when-selected=yes, value-when-deselected=no, \
             script=generate, form=options, style=checkbox_option)=\
-=[: action=toggle, target=object, object=disable-when-selected|\
-@{Use =[bold|disable-when-selected]= property}\
+=[: action=toggle, target=object, object=disables-when-selected|\
+@{Use =[bold|disables-when-selected]= property}\
 ]=
 =end option
 =begin option
-=(object checkbox: id=hide-when-selected, value-when-selected=yes, value-when-deselected=no, \
+=(object checkbox: id=hides-when-selected, value-when-selected=yes, value-when-deselected=no, \
             script=generate, form=options, style=checkbox_option)=\
-=[: action=toggle, target=object, object=hide-when-selected|\
-@{Use =[bold|hide-when-selected]= property}\
+=[: action=toggle, target=object, object=hides-when-selected|\
+@{Use =[bold|hides-when-selected]= property}\
 ]=
 =end option
 =end options

@@ -2,7 +2,9 @@
 
 =object video: id=video, filename="sample.mp4", style=video
 
+=begin actions
 =object button: label=@{Play}, selected-label=@{Pause}, \
             owner=video, type=play, action=play, target=owner, toggle=yes, style=btn_action
+=end actions
 
 =end catalog

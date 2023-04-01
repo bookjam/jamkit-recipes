@@ -1,6 +1,8 @@
 =begin catalog
 
+=begin actions
 =object button: label=@{Press me}, action=toast, message=@{Hello there}, style=btn_action
+=end actions
 
 =object effect: type=lottie, filename=12897-snow-santa.json, style=effect_fullscreen
 

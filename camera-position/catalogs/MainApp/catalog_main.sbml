@@ -2,7 +2,9 @@
 
 =object camera: id=camera, position=back, style=camera
 
+=begin actions
 =object button: owner=camera, type=position, action=toggle-position, target=owner, \
             label=@{Front}, selected-label=@{Back}, style=btn_action
+=end actions
 
 =end catalog

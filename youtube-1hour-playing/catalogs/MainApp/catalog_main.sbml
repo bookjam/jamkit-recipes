@@ -8,7 +8,9 @@
 =object timer: id=timer, time=1:00:00, autostart=no, script-when-expired=on_timer_expired
 =end timer
 
+=begin actions
 =object button: label=@{Play}, selected-label=@{Pause}, \
             owner=youtube, type=play, action=play, target=owner, toggle=yes, style=btn_action
+=end actions
 
 =end catalog

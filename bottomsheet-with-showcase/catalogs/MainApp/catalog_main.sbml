@@ -1,5 +1,7 @@
 =begin catalog
 
+=begin actions
 =object button: label=@{Open}, action=bottom-sheet, display-unit=S_MAIN, style=btn_action
+=end actions
 
 =end catalog

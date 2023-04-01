@@ -2,7 +2,9 @@
 
 =object camera: id=camera, position=back, style=camera
 
+=begin actions
 =object button: owner=camera, type=flash, action=flash-on, target=owner, toggle=yes, \
             label=@{Turn on}, selected-label=@{Turn off}, style=btn_action
+=end actions
 
 =end catalog

@@ -18,20 +18,20 @@ import ~/themes.sbss
     background-scale-mode: stretch;
 }
 
-if "${hide-when-disabled}" != "no"
+if "${hides-when-disabled}" != "no"
     #btn_example {
-        hide-when-disabled: yes;
+        hides-when-disabled: yes;
     }
 end
 
-if "${disable-when-selected}" != "no"
+if "${disables-when-selected}" != "no"
     #btn_example {
-        disable-when-selected: yes;
+        disables-when-selected: yes;
     }
 end
 
-if "${hide-when-selected}" != "no"
+if "${hides-when-selected}" != "no"
     #btn_example {
-        hide-when-selected: yes;
+        hides-when-selected: yes;
     }
 end
