@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.9a5ce237-c0c5-4d1d-810e-54ae6a5f8e2a,
+    language: en,
+    version: 1.0,
+    title: "video-playing",
+    description: "How to play an video stream"
+}
