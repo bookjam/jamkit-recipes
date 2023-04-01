@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.6ec31c1d-6aa1-4466-8877-ce2fc5d32fb8,
+    language: en,
+    version: 1.0,
+    title: "video-scale-mode",
+    description: "How to change the scale mode of video"
+}
