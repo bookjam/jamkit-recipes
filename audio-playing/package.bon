@@ -3,5 +3,5 @@
     language: en,
     version: 1.0,
     title: "audio-playing",
-    description: "How to play an audio stream"
+    description: "How to play an audio"
 }

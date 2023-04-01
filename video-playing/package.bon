@@ -3,5 +3,5 @@
     language: en,
     version: 1.0,
     title: "video-playing",
-    description: "How to play an video stream"
+    description: "How to play a video"
 }
