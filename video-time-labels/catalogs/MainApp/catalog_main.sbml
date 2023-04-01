@@ -1,0 +1,14 @@
+=begin catalog
+
+=object video: id=video, filename="sample.mp4", style=video
+
+=begin labels
+@{Playng time}: =(object label: owner=video, type=time, style=label_time)=
+@{Remaining time}: =(object label: owner=video, type=time, inverts-value=yes, style=label_time)=
+@{Duration}: =(object label: owner=video, type=duration, style=label_time)=
+=end labels
+
+=object button: label=@{Play}, selected-label=@{Pause}, \
+            owner=video, type=play, action=play, target=owner, toggle=yes, style=btn_action
+
+=end catalog
