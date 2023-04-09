@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.94226509-7cf2-4e75-b861-f222ef32b11b,
+    language: en,
+    version: 1.0,
+    title: "showcase-pull-to-refresh",
+    description: "How to pull to refresh a showcase"
+}

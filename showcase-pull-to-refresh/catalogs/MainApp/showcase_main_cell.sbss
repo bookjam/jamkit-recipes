@@ -1,0 +1,15 @@
+import themes.sbss
+
+#img_youtube {
+    width: 1pw;
+    height: 1pw*9/16;
+    default-color: $COLOR_DARK_WHITE;
+    scale-mode: fill;
+}
+
+/cell/title {
+    margin: 10dp 10dp 0 10dp;
+    font-family: $SANS_MEDIUM;
+    font-size: 1.2;
+    line-break-mode: word-wrap;
+}
