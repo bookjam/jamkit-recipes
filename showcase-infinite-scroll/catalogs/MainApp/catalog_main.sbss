@@ -1,0 +1,14 @@
+import themes.sbss
+
+#showcase_main {
+    width: 1pw;
+    height: 100%;
+    column-count: 1;
+    cell-size: 1pw (1pw*9/16+10dp+60dp);
+    preload-count: 5;
+    keeps-offscreen-cells: yes;
+}
+
+/catalog {
+    margin-top: 1sbh;
+}

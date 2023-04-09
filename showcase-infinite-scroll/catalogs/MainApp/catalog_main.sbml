@@ -1,0 +1,5 @@
+=begin catalog
+
+=object showcase: data-script=feed_data, alternate-name=main, loads-more=yes, reloads-when-pull=yes, style=showcase_main
+
+=end catalog
