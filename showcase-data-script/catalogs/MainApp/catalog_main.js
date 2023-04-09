@@ -33,10 +33,6 @@ function feed_data(keyword, location, length, sortkey, sortorder, handler) {
             "title": "LE SSERAFIM FEARLESS OFFICIAL M/V"
         },
         {
-            "video-id": "nJWcGScAGas",
-            "title": "IVE 'Take It' MV"
-        },
-        {
             "video-id": "2S24-y0Ij3Y",
             "title": "BLACKPINK - 'Kill This Love' M/V"
         }
