@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.8af22d53-facd-496a-ae2b-fa8a7f103972,
+    language: en,
+    version: 1.0,
+    title: "showcase-infinite-scroll",
+    description: "How to use infinite scroll for showcase"
+}
