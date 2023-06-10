@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.f7bf686e-042f-48d1-9b86-afd89adf1d7a,
+    language: en,
+    version: 1.0,
+    title: "image-picker",
+    description: "How to pick an image from photo library"
+}
