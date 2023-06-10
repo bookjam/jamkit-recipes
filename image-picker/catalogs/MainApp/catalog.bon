@@ -2,11 +2,8 @@
     "title": "MainApp Catalog",
     "version": "1.0",
     "strings": {
-        "Turn on": {
-            "ko": "켜기"
-        },
-        "Turn off": {
-            "ko": "끄기"
+        "Pick": {
+            "ko": "선택"
         }
     }
 }
