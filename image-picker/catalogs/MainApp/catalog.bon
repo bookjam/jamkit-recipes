@@ -1,0 +1,9 @@
+{
+    "title": "MainApp Catalog",
+    "version": "1.0",
+    "strings": {
+        "Pick": {
+            "ko": "선택"
+        }
+    }
+}

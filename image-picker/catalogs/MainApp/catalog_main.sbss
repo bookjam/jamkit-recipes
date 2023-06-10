@@ -1,0 +1,29 @@
+import themes.sbss
+
+#image {
+    width: 1pw;
+    height: 1pw;
+    content-background-color: $COLOR_DARK_WHITE;
+}
+
+#btn_action {
+    width: 120dp;
+    height: 44dp;
+    label-font-family: $SANS_MEDIUM;
+    label-font-size: 1.3;
+    label-color: $COLOR_BLACK;
+    highlighted-label-color: $COLOR_GRAY;
+    content-background-color: $COLOR_DARK_WHITE;
+}
+
+/catalog {
+    margin-top: 1sbh;
+}
+
+/catalog/actions {
+    display: block;
+    position: absolute;
+    gravity: bottom;
+    y: -(60dp+1eb);
+    text-align: center;
+}

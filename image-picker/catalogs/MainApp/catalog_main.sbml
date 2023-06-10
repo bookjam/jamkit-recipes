@@ -1,0 +1,9 @@
+=begin catalog
+
+=object image: id=image, style=image
+
+=begin actions
+=object button: label=@{Pick}, script=pick_image, style=btn_action
+=end actions
+
+=end catalog
