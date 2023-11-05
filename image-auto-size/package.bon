@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.4fc5895e-edf3-4728-b1c2-67d42dc7d186,
+    language: en,
+    version: 1.0,
+    title: "image-auto-size",
+    description: "How to calculate image size automatically"
+}
