@@ -1,0 +1,21 @@
+import themes.sbss
+
+#showcase_calendar {
+    width: 1pw;
+    height: 100%;
+    column-count: 7;
+    header-height: 100dp;
+    cell-size: 0 60dp;
+}
+
+/catalog {
+    margin-top: 1sbh;
+}
+
+if "${calendar-mode}" == "daily"
+    #showcase_calendar {
+        column-count: 1;
+        header-height: 70dp;
+        cell-size: 0 0;
+    }
+end

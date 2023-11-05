@@ -1,0 +1,114 @@
+import themes.sbss
+
+#btn_mode {
+    width: 34dp;
+    height: 34dp;
+    margin: 0 6dp;
+    vertical-align: middle;
+    content-border-radius: 5dp;
+    content-background-color: $COLOR_DARK_WHITE;
+    label-font-family: $SANS_MEDIUM;
+    label-color: $COLOR_GRAY;
+}
+
+#btn_mode.monthly {
+    style: btn_mode;
+}
+
+#btn_mode.weekly {
+    style: btn_mode;
+}
+
+#btn_mode.daily {
+    style: btn_mode;
+}
+
+#btn_arrow {
+    width: 34dp;
+    height: 34dp;
+    vertical-align: middle;
+}
+
+#btn_today {
+    height: 34dp;
+    content-padding: 0 15dp;
+    content-border-radius: 5dp;
+    content-background-color: #4F9594;
+    label-font-family: $SANS_MEDIUM;
+    label-color: $COLOR_WHITE;
+}
+
+#label_weekday {
+    width: 1pw/7;
+    font-family: $SANS_MEDIUM;
+    font-size: 1.0;
+    text-align: center;
+}
+
+#label_weekday.sun {
+    style: label_weekday;
+    text-color: #D5534D;
+}
+
+#label_weekday.sat {
+    style: label_weekday;
+    text-color: #00F;
+}
+
+/header/left {
+    display: block;
+    position: absolute;
+    gravity: left-top;
+    y: 20dp;
+    padding-left: 6dp;
+    text-align: left;
+}
+
+/header/center {
+    display: block;
+    position: absolute;
+    gravity: top;
+    y: 20dp;
+    text-align: center;
+    font-family: $SANS_LIGHT;
+    font-size: 1.4;
+}
+
+/header/right {
+    display: block;
+    position: absolute;
+    gravity: right-top;
+    y: 20dp;
+    padding-right: 6dp;
+    text-align: right;
+}
+
+/header/weekdays {
+    display: block;
+    position: absolute;
+    gravity: bottom;
+    y: -8dp;
+    text-align: center;
+}
+
+if $MODE == "monthly"
+    #btn_mode.monthly {
+        content-background-color: $COLOR_LIGHT_GRAY;
+    }
+end
+
+if $MODE == "weekly"
+    #btn_mode.weekly {
+        content-background-color: $COLOR_LIGHT_GRAY;
+    }
+end
+
+if $MODE == "daily"
+    #btn_mode.daily {
+        content-background-color: $COLOR_LIGHT_GRAY;
+    }
+    
+    /header/weekdays {
+        display: none;
+    }
+end

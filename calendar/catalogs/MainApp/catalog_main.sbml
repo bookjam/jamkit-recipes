@@ -1,0 +1,6 @@
+=begin catalog
+
+=object showcase: type=calendar, mode="${calendar-mode}", alternate-name=calendar, \
+            has-header=yes, has-footer=yes, style=showcase_calendar
+
+=end catalog
