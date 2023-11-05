@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.c1afd9ac-bf25-4ea2-91ec-21089f4d1842,
+    language: en,
+    version: 1.0,
+    title: "textfield-appearance",
+    description: "How to change the appearance of a textfield"
+}
