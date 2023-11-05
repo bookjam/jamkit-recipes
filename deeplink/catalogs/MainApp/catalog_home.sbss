@@ -1,0 +1,26 @@
+import themes.sbss
+
+if $SCREEN_WIDTH > 4.7
+    $_BUTTON_TEXT_SIZE = 1.4
+else
+    $_BUTTON_TEXT_SIZE = 1.3
+end
+
+/catalog {
+    page-background-color: $THEME_COLOR_BACKGROUND;
+    text-color: $THEME_COLOR_TEXT;
+}
+
+/catalog/buttons {
+    display: block;
+    position: abs;
+    gravity: center;
+}
+
+#myscript {
+    width: 0.5pw;
+    height: 50dp;
+    content-background-color: #3333;
+    margin-bottom: 30;
+    label-font-size: $_BUTTON_TEXT_SIZE;
+}
