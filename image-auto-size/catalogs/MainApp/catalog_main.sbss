@@ -1,0 +1,85 @@
+import themes.sbss
+
+#image_example {
+    scale-mode: fit;
+    content-background-color: $COLOR_LIGHT_GRAY;
+    content-border-color: $COLOR_GRAY;
+    content-border-width: 1dp;
+    content-border-radius: 5dp;
+}
+
+#image_example_01 {
+    style: image_example;
+    width: 140dp;
+    height: 44dp;
+}
+
+#image_example_02 {
+    style: image_example;
+    height: 44dp;
+}
+
+#image_example_03 {
+    style: image_example;
+    height: 44dp;
+    content-padding: 0 20dp;
+}
+
+#image_example_04 {
+    style: image_example;
+    width: 140dp;
+}
+
+#image_example_05 {
+    style: image_example;
+    width: 140dp;
+    content-padding: 20dp 0;
+}
+
+#image_example_06 {
+    style: image_example;
+}
+
+#image_example_07 {
+    style: image_example;
+    content-padding: 20dp 20dp;
+}
+
+#image_example_08 {
+    style: image_example;
+    content-size: 170dp 30dp;
+}
+
+#image_example_09 {
+    style: image_example;
+    width: 140dp;
+    content-size: 170dp 30dp;
+}
+
+#image_example_10 {
+    style: image_example;
+    height: 44dp;
+    content-size: 170dp 30dp;
+}
+
+#image_example_11 {
+    style: image_example;
+    content-size: 170dp 30dp;
+    content-padding: 20dp 20dp;
+}
+
+/catalog/content {
+    margin-top: 1sbh+60dp;
+    margin-bottom: 30dp+1eb
+}
+
+/catalog/content/example {
+    margin-bottom: 40dp;
+    text-align: center;
+}
+
+/catalog/content/example/description {
+    margin-top: 10dp;
+    font-family: @{$SANS_LIGHT};
+    font-size: 0.9;
+}
