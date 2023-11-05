@@ -1,0 +1,84 @@
+=begin catalog
+
+=begin content
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_01)=
+=begin description
+@{Default Appearance}
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_02)=
+=begin description
+@{Colored Appearance}
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_03)=
+=begin description
+height: 44dp, content-padding: 0 20dp
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_04)=
+=begin description
+width: 140dp
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_05)=
+=begin description
+width: 140dp, content-padding: 20dp 0
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_06)=
+=begin description
+@{None}
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_07)=
+=begin description
+content-padding: 20dp 20dp
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_08)=
+=begin description
+content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_09)=
+=begin description
+width: 140dp, content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_10)=
+=begin description
+height: 44dp, content-size: 170dp 30dp
+=end description
+=end example
+
+=begin example
+=(object textfield: placeholder=@{Type a text}, style=textfield_example_11)=
+=begin description
+content-size: 170dp 30dp, content-padding: 20dp 20dp
+=end description
+=end example
+
+=end content
+
+=end catalog
