@@ -1,0 +1,7 @@
+=begin catalog: script-when-loaded=on_loaded
+
+=begin actions
+=object button: label=@{Show}, action=subview, subview=V_VIDEO, target=popup, style=btn_action
+=end actions
+
+=end catalog

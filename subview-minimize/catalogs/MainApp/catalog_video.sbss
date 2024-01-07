@@ -1,0 +1,82 @@
+import themes.sbss
+
+if $MINIMIZED != "yes"
+    #youtube {
+        width: 1pw-30dp;
+        height: (1pw-30dp)*9/16;
+        margin-top: 1sbh+10dp;
+    }
+else
+    #youtube {
+        width: (1ph-12dp)*16/9;
+        height: 1ph-12dp;
+        position: absolute;
+        gravity: left;
+        x: 6dp;
+        ignore-touches: yes;
+    }
+end
+
+#btn_action {
+    width: 120dp;
+    height: 44dp;
+    label-font-family: $SANS_MEDIUM;
+    label-font-size: 1.3;
+    label-color: $COLOR_BLACK;
+    highlighted-label-color: $COLOR_GRAY;
+    content-background-color: $COLOR_DARK_WHITE;
+}
+
+if $MINIMIZED != "yes"
+    %minimized {
+        display: none;
+    }
+else
+    %maximized {
+        display: none;
+    }
+end
+
+/catalog {
+    minimize-margin: -30dp 0 0 0;
+}
+
+/catalog/info {
+    font-family: $SANS_REGULAR;
+    text-align: left;
+    line-break-mode: word-wrap;
+}
+
+if $MINIMIZED != "yes"
+    /catalog {
+        page-background-color: $THEME_COLOR_BACKGROUND;
+        action-when-touched: noop;
+    }
+
+    /catalog/info {
+        margin: 15dp;
+        font-size: 1.6;
+    }
+
+    /catalog/actions {
+        display: block;
+        position: absolute;
+        gravity: bottom;
+        y: -(60dp+1eb);
+        text-align: center;
+    }
+else
+    /catalog {
+        page-background-color: $THEME_COLOR_NAVIBAR_BACKGROUND;
+        action-when-back: noop;
+    }
+
+    /catalog/info {
+        margin: 6dp 10dp 0 6dp+(1ph-12dp)*16/9+6dp;
+        font-size: 1.1;
+    }
+
+    /catalog/actions {
+        display: none;
+    }
+end

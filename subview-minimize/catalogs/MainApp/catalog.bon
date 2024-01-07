@@ -1,0 +1,25 @@
+{
+    "title": "MainApp Catalog",
+    "version": "1.0",
+    "subviews": {
+    	"V_VIDEO": {
+    		"catalog": "MainApp",
+    		"subcatalog": "video",
+    		"type": "store"
+    	}
+	},
+	"subcatalogs": {
+		"video": {
+    		"controller": "StoreView",
+	    	"hides-navibar": "yes",
+    		"statusbar-style": "Default",
+    		"title": "Video",
+			"title-ko": "비디어"
+		}
+	},
+    "strings": {
+        "Show": {
+            "ko": "보기"
+        }
+    }
+}

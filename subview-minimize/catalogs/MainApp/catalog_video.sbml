@@ -1,0 +1,15 @@
+=begin catalog: action-when-touched=maximize, action-when-back=minimize
+
+=object youtube: video-id="jOTfBlKSQYY", reuse-id="youtube", autoplay=yes, repeats=yes, style=youtube
+
+=begin info
+=begin title
+NewJeans (뉴진스) 'ETA' Official MV
+=end title
+=end info
+
+=begin actions
+=object button: label=@{Minimize}, action=minimize, style=btn_action
+=end actions
+
+=end catalog

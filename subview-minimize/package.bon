@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.3e32f917-c9c7-4aa1-b349-64af9f52513d,
+    language: en,
+    version: 1.0,
+    title: "subview-minimize",
+    description: "How to minimize and restore a subview"
+}
