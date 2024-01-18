@@ -1,0 +1,21 @@
+import themes.sbss
+
+/cell/content {
+    display: block;
+    position: absolute;
+    gravity: center;
+    padding: 0 10dp;
+    font-family: $SANS_REGULAR;
+    font-size: 1.0;
+    line-spacing: -0.2em;
+    text-align: left;
+    line-break-mode: word-wrap;
+}
+
+if $STATE == "focused"
+    /cell/content {
+        font-family: $SANS_BOLD;
+        font-size: 1.1;
+        text-color: #F00;
+    }
+end

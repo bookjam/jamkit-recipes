@@ -1,0 +1,14 @@
+=begin catalog
+
+=object youtube: id=youtube, video-id="MBdVXkSdhwU", style=youtube
+
+=object showcase: id=showcase.lyrics, type=media, filename=lyrics.json, alternate-name=lyrics, \
+            action-when-loaded=sync, params-when-loaded="target=object,object=showcase.lyrics,player=youtube", \
+            autofocus=yes, style=showcase_lyrics
+
+=begin actions
+=object button: label=@{Play}, selected-label=@{Pause}, \
+            owner=youtube, type=play, action=play, target=owner, toggle=yes, style=btn_action
+=end actions
+
+=end catalog

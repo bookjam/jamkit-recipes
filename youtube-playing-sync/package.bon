@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.1f998a29-889f-4155-90f0-b2d3d096be2c,
+    language: en,
+    version: 1.0,
+    title: "youtube-playing-sync",
+    description: "How to synchronize data while a YouTube video is playing"
+}
