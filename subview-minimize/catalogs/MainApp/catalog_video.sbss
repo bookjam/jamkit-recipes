@@ -13,7 +13,7 @@ else
         position: absolute;
         gravity: left;
         x: 6dp;
-        ignore-touches: yes;
+        ignores-touches: yes;
     }
 end
 
