@@ -5,17 +5,30 @@ $_PLACEHOLDER_COLOR = #325488
 $_DISABLED_COLOR = #888888
 $_CURSOR_COLOR = #FF0000
 
-#textfield_example {
-    width: 240dp;
-    height: 50dp;
+#textfield_example_no_size {
     font-family: @{$SANS_MEDIUM};
     font-size: 1.2;
     text-align: left;
     suggestions-disabled: yes;
 }
 
+#textfield_example_with_size {
+    style: textfield_example_no_size;
+    width: 240dp;
+    height: 50dp;
+}
+
+#textfield_example_only_width {
+    style: textfield_example_no_size;
+    width: 240dp;
+}
+
+#textfield_example_only_height {
+    style: textfield_example_no_size;
+    height: 50dp;
+}
+
 #textfield_example_plain {
-    style: textfield_example;
     content-background-color: $COLOR_LIGHT_GRAY;
     content-border-color: $COLOR_GRAY;
     content-border-width: 1dp;
@@ -23,10 +36,12 @@ $_CURSOR_COLOR = #FF0000
 }
 
 #textfield_example_01 {
+    style: textfield_example_with_size;
     style: textfield_example_plain;
 }
 
 #textfield_example_02 {
+    style: textfield_example_with_size;
     style: textfield_example_plain;
     text-color: $_TEXT_COLOR;
     placeholder-color: $_PLACEHOLDER_COLOR;
@@ -34,48 +49,58 @@ $_CURSOR_COLOR = #FF0000
 }
 
 #textfield_example_03 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
     height: 44dp;
     content-padding: 0 20dp;
 }
 
 #textfield_example_04 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
+    width: 140dp;
 }
 
 #textfield_example_05 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
     width: 140dp;
     content-padding: 20dp 0;
 }
 
 #textfield_example_06 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
 }
 
 #textfield_example_07 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
     content-padding: 20dp 20dp;
 }
 
 #textfield_example_08 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
     content-size: 170dp 30dp;
 }
 
 #textfield_example_09 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
     width: 140dp;
     content-size: 170dp 30dp;
 }
 
 #textfield_example_10 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
     height: 44dp;
     content-size: 170dp 30dp;
 }
 
 #textfield_example_11 {
+    style: textfield_example_no_size;
     style: textfield_example_plain;
     content-size: 170dp 30dp;
     content-padding: 20dp 20dp;
