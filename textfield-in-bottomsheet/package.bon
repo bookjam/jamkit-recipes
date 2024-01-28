@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.750cac6a-4f98-467f-b9b2-34ce677d2762,
+    language: en,
+    version: 1.0,
+    title: "textfield-in-bottomsheet",
+    description: "How to manage keyboard events for a textfield in a bottom sheet"
+}

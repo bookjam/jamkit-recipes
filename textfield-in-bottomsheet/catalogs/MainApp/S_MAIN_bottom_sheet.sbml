@@ -1,0 +1,8 @@
+=begin sheet
+
+=begin heading
+=end heading
+
+=object textfield: placeholder=@{Type a text}, style=textfield
+
+=end sheet

@@ -1,0 +1,17 @@
+import themes.sbss
+
+#textfield {
+    width: 1pw-(15dp*2);
+    height: 50dp;
+    content-padding: 0 10dp;
+    font-family: @{$SANS_MEDIUM};
+    font-size: 1.2;
+    text-align: left;
+    suggestions-disabled: yes;
+    content-border-color: $COLOR_GRAY;
+    content-border-width: 1dp;
+}
+
+/sheet {
+    margin: 30dp 0 60dp+1eb 0;
+}
