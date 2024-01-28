@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.457209a3-0a54-4ac1-9279-777f6de91b62,
+    language: en,
+    version: 1.0,
+    title: "mask-on-image",
+    description: "How to display a mask image on another image"
+}

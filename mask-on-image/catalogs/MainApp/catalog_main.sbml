@@ -1,0 +1,5 @@
+=begin catalog
+
+=object image: filename="icon_profile.png", mask-image="img_profile_mask.png", style=img_profile
+
+=end catalog

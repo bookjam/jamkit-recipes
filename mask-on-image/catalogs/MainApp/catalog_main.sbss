@@ -1,0 +1,11 @@
+import themes.sbss
+
+#img_profile {
+    width: 200dp;
+    height: 200dp;
+    position: absolute;
+    gravity: center;
+    scale-mode: fit;
+    mask-scale-mode: fit;
+    content-background-color: $COLOR_DARK_WHITE;
+}
