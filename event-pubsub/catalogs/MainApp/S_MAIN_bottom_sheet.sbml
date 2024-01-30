@@ -1,0 +1,8 @@
+=begin sheet
+
+=begin actions
+=(object button: label=@{Subscribe}, script=subscribe, style=btn_action)=\
+=(object button: label=@{Unsubscribe}, script=unsubscribe, style=btn_action)=
+=end actions
+
+=end sheet

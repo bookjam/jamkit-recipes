@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.e8ade249-6a77-452b-8731-7c9ec13eecea,
+    language: en,
+    version: 1.0,
+    title: "event-pubsub",
+    description: "How to broadcast and receive events using pubsub"
+}
