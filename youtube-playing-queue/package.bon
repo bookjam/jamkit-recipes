@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.980b2575-e27a-4d3c-b152-ad1661526dae,
+    language: en,
+    version: 1.0,
+    title: "youtube-playing-queue",
+    description: "How to queue next video to YouTube"
+}
