@@ -38,7 +38,7 @@ else
 end
 
 /catalog {
-    minimize-margin: -30dp 0 0 0;
+    minimize-margin-top: -30dp;
 }
 
 /catalog/info {
