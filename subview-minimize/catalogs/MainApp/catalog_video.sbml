@@ -1,6 +1,6 @@
 =begin catalog: action-when-touched=maximize, action-when-back=minimize
 
-=object youtube: video-id="pSUydWEqKwE", reuse-id="youtube", autoplay=yes, repeats=yes, style=youtube
+=object youtube: video-id="pSUydWEqKwE", reuse-id=youtube, autoplay=yes, repeats=yes, style=youtube
 
 =begin info
 =begin title
