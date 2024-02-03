@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.b0ecf8f6-b82c-45bc-b54e-2e3ffeea2ee2,
+    language: en,
+    version: 1.0,
+    title: "subview-floating",
+    description: "How to be floating a subview to home screen"
+}

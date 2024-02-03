@@ -1,0 +1,15 @@
+=begin catalog
+
+=object youtube: video-id="pSUydWEqKwE", reuse-id=youtube, autoplay=yes, repeats=yes, plays-in-background=yes, style=youtube
+
+=begin info
+=begin title
+NewJeans (뉴진스) 'ETA' Official MV
+=end title
+=end info
+
+=begin actions
+=object button: label=@{Start Floating}, action=floating-start, subview=V_FLOATING_VIDEO, style=btn_action
+=end actions
+
+=end catalog

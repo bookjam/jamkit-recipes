@@ -1,0 +1,41 @@
+{
+    "title": "MainApp Catalog",
+    "version": "1.0",
+    "subviews": {
+    	"V_VIDEO": {
+    		"catalog": "MainApp",
+    		"subcatalog": "video",
+    		"type": "store"
+    	},
+		"V_FLOATING_VIDEO": {
+    		"catalog": "MainApp",
+    		"subcatalog": "floating_video",
+    		"type": "store"
+    	}
+	},
+	"subcatalogs": {
+		"video": {
+    		"controller": "StoreView",
+	    	"hides-navibar": "yes",
+    		"statusbar-style": "Default",
+    		"title": "Video",
+			"title-ko": "비디오",
+			"audio-session-type": "playback"
+		},
+		"floating_video": {
+    		"controller": "StoreView",
+	    	"hides-navibar": "yes",
+    		"statusbar-style": "Default",
+    		"title": "Floating Video",
+			"title-ko": "플로팅 비디오"
+		}
+	},
+    "strings": {
+		"Show": {
+            "ko": "보기"
+        },
+        "Start Floating": {
+            "ko": "플로팅 시작"
+        }
+    }
+}

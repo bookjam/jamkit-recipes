@@ -1,0 +1,5 @@
+=begin catalog: action-when-touched=app-restore
+
+=object youtube: id=youtube, reuse-id=youtube, autoplay=yes, repeats=yes, style=youtube
+
+=end catalog
