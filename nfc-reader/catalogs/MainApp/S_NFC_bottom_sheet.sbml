@@ -1,0 +1,11 @@
+=begin sheet: script-when-loaded=on_loaded
+
+=begin title
+@{NFC}
+=end title
+
+=begin message
+@{Put an NFC on backside}
+=end message
+
+=end sheet

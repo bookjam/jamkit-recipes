@@ -1,0 +1,16 @@
+import themes.sbss
+
+/sheet {
+    margin: 15dp 15dp 20dp+1eb 15dp;
+}
+
+/sheet/title {
+    margin-bottom: 15dp;
+    font-family: @{$SANS_BOLD};
+    font-size: 1.5;
+}
+
+/sheet/message {
+    font-family: @{$SANS_MEDIUM};
+    font-size: 1.0;
+}

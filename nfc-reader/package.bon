@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.8c1df390-4f42-405d-90b4-9449d2687cba,
+    language: en,
+    version: 1.0,
+    title: "nfc-reader",
+    description: "How to read an NFC"
+}
