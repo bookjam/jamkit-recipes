@@ -10,5 +10,5 @@ import themes.sbss
 
 /catalog {
     floating-size: 200dp 200dp*9/16;
-    floating-point: 100dp 100dp;
+    floating-origin: 100dp 100dp;
 }
