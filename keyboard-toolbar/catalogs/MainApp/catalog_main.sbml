@@ -2,6 +2,6 @@
 
 =object textfield: id=text, style=textfield
 
-=object sbml: filename="keyboard_toolbar.sbml", type=toolbar, owner=text, -hidden=yes, style=sbml_toolbar
+=object sbml: filename="keyboard_toolbar.sbml", type=toolbar, owner=text, style=sbml_toolbar
 
 =end catalog
