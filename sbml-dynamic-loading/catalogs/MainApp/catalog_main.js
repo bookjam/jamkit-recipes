@@ -6,7 +6,7 @@ function on_loaded() {
             [ "Hakyong",  "3rd" ],
             [ "Haeun",    "4th" ],
         ].map(([ name, nth ]) => {
-            return read("catalog", "template.sbml", {
+            return read("catalog", "message.sbml.tmpl", {
                 "name": name,
                 "nth": nth
             });
