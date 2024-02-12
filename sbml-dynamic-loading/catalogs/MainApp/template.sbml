@@ -1,0 +1,6 @@
+=begin message
+
+Hi, ${name}!
+You are the ${nth} family member.
+
+=end message

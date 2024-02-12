@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.a39ec57a-a29e-46bc-b5d2-b3de07312d73,
+    language: en,
+    version: 1.0,
+    title: "sbml-dynamic-loading",
+    description: "How to load sbml dynamically"
+}

@@ -1,0 +1,13 @@
+import themes.sbss
+
+/catalog/content {
+    display: block;
+    position: absolute;
+    gravity: center;
+}
+
+/catalog/content/message {
+    margin: 10dp 15dp;
+    font-family: $SANS_REGULAR;
+    font-size: 1.1;
+}
