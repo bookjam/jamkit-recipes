@@ -19,15 +19,15 @@
 	    	"hides-navibar": "yes",
     		"statusbar-style": "Default",
     		"title": "Video",
-			"title-ko": "비디오",
-			"audio-session-type": "playback"
+			"title-ko": "비디오"
 		},
 		"floating_video": {
     		"controller": "StoreView",
 	    	"hides-navibar": "yes",
     		"statusbar-style": "Default",
     		"title": "Floating Video",
-			"title-ko": "플로팅 비디오"
+			"title-ko": "플로팅 비디오",
+			"audio-session-type": "playback"
 		}
 	},
     "strings": {

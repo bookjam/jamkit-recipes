@@ -1,5 +1,8 @@
-=begin catalog: action-when-touched=app-restore
+=begin catalog: action-when-touched=app-restore, \
+                script-when-media-control@play=on_media_control_play, \
+                script-when-media-control@pause=on_media_control_pause, \
+                script-when-media-control@seek=on_media_control_seek
 
-=object youtube: id=youtube, reuse-id=youtube, autoplay=yes, repeats=yes, style=youtube
+=object youtube: id=youtube, reuse-id=youtube, style=youtube
 
 =end catalog

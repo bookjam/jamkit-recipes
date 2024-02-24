@@ -1,6 +1,7 @@
 =begin catalog
 
-=object youtube: video-id="pSUydWEqKwE", reuse-id=youtube, autoplay=yes, repeats=yes, plays-in-background=yes, style=youtube
+=object youtube: video-id="pSUydWEqKwE", reuse-id=youtube, autoplay=yes, repeats=yes, \
+            plays-in-background=yes, updates-now-playing-info=yes, style=youtube
 
 =begin info
 =begin title
