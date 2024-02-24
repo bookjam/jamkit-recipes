@@ -1,0 +1,15 @@
+=begin catalog: script-when-loaded=on_loaded, \
+                script-when-media-control@play=on_media_control_play, \
+                script-when-media-control@pause=on_media_control_pause, \
+                script-when-media-control@next=on_media_control_next, \
+                script-when-media-control@prev=on_media_control_prev, \
+                script-when-media-control@seek=on_media_control_seek
+
+=object youtube: id=youtube, updates-now-playing-info=yes, script-when-finished=on_video_finished, style=youtube
+
+=begin actions
+=(object button: label=@{Prev}, script=prev, style=btn_action)=\
+=(object button: label=@{Next}, script=next, style=btn_action)=
+=end actions
+
+=end catalog

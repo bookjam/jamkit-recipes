@@ -1,0 +1,29 @@
+{
+    "title": "MainApp Catalog",
+    "version": "1.0",
+    "subviews": {
+    	"__MAIN__": {
+    		"catalog": "MainApp",
+    		"subcatalog": "main",
+    		"type": "store"
+    	}
+	},
+	"subcatalogs": {
+		"main": {
+    		"controller": "StoreView",
+	    	"hides-navibar": "yes",
+            "title": "Main",
+			"title-ko": "메인",
+    		"statusbar-style": "Default",
+			"audio-session-type": "playback"
+		}
+	},
+    "strings": {
+        "Prev": {
+            "ko": "이전"
+        },
+        "Next": {
+            "ko": "다음"
+        }
+    }
+}
