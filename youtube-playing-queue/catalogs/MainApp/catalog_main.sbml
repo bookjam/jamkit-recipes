@@ -1,10 +1,10 @@
 =begin catalog: script-when-loaded=on_loaded
 
-=object youtube: id=youtube.1, script-when-finished=on_video_finished, style=youtube
-=object youtube: id=youtube.2, script-when-finished=on_video_finished, hidden=yes, style=youtube
+=object youtube: id=youtube, script-when-finished=on_video_finished, style=youtube
 
 =begin actions
-=object button: label=@{Next}, script=next, style=btn_action
+=(object button: label=@{Prev}, script=prev, style=btn_action)=\
+=(object button: label=@{Next}, script=next, style=btn_action)=
 =end actions
 
 =end catalog
