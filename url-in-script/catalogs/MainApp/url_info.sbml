@@ -1,0 +1,38 @@
+=begin sbml
+
+=begin heading
+① scheme
+=end heading
+=begin value
+${scheme}
+=end value
+
+=begin heading
+② host
+=end heading
+=begin value
+${host}
+=end value
+
+=begin heading
+③ path
+=end heading
+=begin value
+${path}
+=end value
+
+=begin heading
+④ query
+=end heading
+=begin value
+${query}
+=end value
+
+=begin heading
+⑤ string()
+=end heading
+=begin value
+${string}
+=end value
+
+=end sbml

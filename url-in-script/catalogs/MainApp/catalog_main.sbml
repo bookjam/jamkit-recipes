@@ -1,0 +1,13 @@
+=begin catalog
+
+=begin form: form=form
+=(object textfield: id=url, placeholder="@{Type an URL address}", keyboard-type=url, \
+            invalid-when-empty=yes, message-when-empty="@{Please type an URL address.}", \
+            valid-format=url, message-when-invalid="@{Please type a valid URL address.}", \
+            style=textfield)=\
+=(object button: label="@{Go}", script=parse_url, form=form, style=btn_action)=
+=end form
+
+=object sbml: id=sbml.info, style=sbml_info
+
+=end catalog

@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.17bcbd29-8b85-4ae0-ac9f-e88b3efc9455,
+    language: en,
+    version: 1.0,
+    title: "url-in-script",
+    description: "How to handle an url in a script"
+}
