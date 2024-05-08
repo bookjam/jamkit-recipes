@@ -1,0 +1,5 @@
+=begin cell
+
+=object image: id=img.${page}, filename=${video-id}.jpg, style=img_poster
+
+=end cell

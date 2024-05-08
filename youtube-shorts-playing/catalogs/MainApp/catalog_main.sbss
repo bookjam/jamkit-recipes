@@ -1,0 +1,22 @@
+import themes.sbss
+
+#showcase_videos {
+    width: 1pw;
+    height: 1ph;
+    position: absolute;
+    gravity: center;
+    column-count: 1;
+    cell-size: 1pw 1ph;
+    page-enabled: yes;
+    preload-count: 1;
+    keep-count: 1;
+    content-background-color: $COLOR_BLACK;
+}
+
+#youtube {
+    width: 1ph*9/16;
+    height: 1ph;
+    position: absolute;
+    gravity: right;
+    content-background-color: $COLOR_BLACK;
+}

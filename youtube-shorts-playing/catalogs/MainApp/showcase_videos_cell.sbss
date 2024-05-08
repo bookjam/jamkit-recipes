@@ -1,0 +1,9 @@
+import themes.sbss
+
+#img_poster {
+    width: 1pw;
+    height: 1ph;
+    position: absolute;
+    gravity: center;
+    scale-mode: fill;
+}

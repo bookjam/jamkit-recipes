@@ -1,0 +1,12 @@
+{
+    "title": "MainApp Catalog",
+    "version": "1.0",
+    "strings": {
+        "Prev": {
+            "ko": "이전"
+        },
+        "Next": {
+            "ko": "다음"
+        }
+    }
+}

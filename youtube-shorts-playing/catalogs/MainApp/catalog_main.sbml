@@ -1,0 +1,15 @@
+=begin catalog
+
+=style player: info-hidden=yes, control-hidden=yes, ignores-touches=yes, quality=hd1080, \
+            script-when-playing=on_video_playing, \
+            script-when-finished=on_video_finished
+
+=object youtube: id=youtube.1, style=player, style=youtube
+=object youtube: id=youtube.2, style=player, style=youtube
+=object youtube: id=youtube.3, style=player, style=youtube
+
+=object showcase: id=showcase.videos, data-script=feed_videos, alternate-name=videos, background-loading=yes, \
+            script-when-paging-done=on_paging_done, \
+            style=showcase_videos
+
+=end catalog
