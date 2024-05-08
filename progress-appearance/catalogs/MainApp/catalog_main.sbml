@@ -1,0 +1,43 @@
+=begin catalog
+
+=object sbml: id=sbml.progress, filename=progress.sbml, style=sbml_progress
+
+=begin options: form=options
+=begin states
+=(object checkbox: id=enabled, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_state)=\
+=[: action=toggle, target=object, object=enabled|\
+@{Enabled}\
+]=
+=end states
+=begin option
+=(object checkbox: id=progress-image, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=progress-image|\
+@{Use =[bold|progress-image]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=progress-color, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=progress-color|\
+@{Use =[bold|progress-color]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=track-image, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=track-image|\
+@{Use =[bold|track-image]= property}\
+]=
+=end option
+=begin option
+=(object checkbox: id=track-color, value-when-selected=yes, value-when-deselected=no, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=track-color|\
+@{Use =[bold|track-color]= property}\
+]=
+=end option
+=end options
+
+=end catalog

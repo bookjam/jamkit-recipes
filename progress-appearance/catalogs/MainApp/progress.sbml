@@ -1,0 +1,5 @@
+=begin sbml
+
+=object progress: enabled="${enabled}", progress=0.5, style=progress_example
+
+=end sbml
