@@ -1,0 +1,80 @@
+import ~/themes.sbss
+
+#slider_example {
+    width: 200dp;
+    height: 70dp;
+    position: absolute;
+    gravity: center;
+}
+
+if "${scroll-thumb-image}" != "no"
+    #slider_example {
+        scroll-thumb-image: img_scroll_thumb.png;
+    }
+end
+
+if "${highlighted-scroll-thumb-image}" != "no"
+    #slider_example {
+        highlighted-scroll-thumb-image: img_scroll_thumb_highlighted.png;
+    }
+end
+
+if "${disabled-scroll-thumb-image}" != "no"
+    #slider_example {
+        -disabled-scroll-thumb-image: img_scroll_thumb_disabled.png;
+    }
+end
+
+if "${scroll-thumb-color}" != "no"
+    #slider_example {
+        scroll-thumb-color: #00F;
+    }
+end
+
+if "${scroll-image}" != "no"
+    #slider_example {
+        scroll-image: img_scroll.png;
+    }
+end
+
+if "${highlighted-scroll-image}" != "no"
+    #slider_example {
+        highlighted-scroll-image: img_scroll_highlighted.png;
+    }
+end
+
+if "${disabled-scroll-image}" != "no"
+    #slider_example {
+        -disabled-scroll-image: img_scroll_disabled.png;
+    }
+end
+
+if "${scroll-color}" != "no"
+    #slider_example {
+        scroll-color: #000;
+    }
+end
+
+if "${track-image}" != "no"
+    #slider_example {
+        track-image: img_track.png;
+    }
+end
+
+if "${highlighted-track-image}" != "no"
+    #slider_example {
+        highlighted-track-image: img_track_highlighted.png;
+    }
+end
+
+if "${disabled-track-image}" != "no"
+    #slider_example {
+        -disabled-track-image: img_track_disabled.png;
+    }
+end
+
+if "${track-color}" != "no"
+    #slider_example {
+        track-color: #888;
+    }
+end

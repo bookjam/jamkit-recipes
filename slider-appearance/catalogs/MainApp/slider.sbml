@@ -1,0 +1,5 @@
+=begin sbml
+
+=object slider: enabled="${enabled}", progress=0.5, style=slider_example
+
+=end sbml
