@@ -1,0 +1,11 @@
+=begin catalog
+
+=begin actions
+=(object button: label=@{Heavy}, script=heavy, style=btn_action)=\
+=(object button: label=@{Medium}, script=medium, style=btn_action)=\
+=(object button: label=@{Light}, script=light, style=btn_action)=\
+=(object button: label=@{Soft}, script=soft, style=btn_action)=\
+=(object button: label=@{Rigid}, script=rigid, style=btn_action)=
+=end actions
+
+=end catalog
