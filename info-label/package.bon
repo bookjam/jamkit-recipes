@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.c090e8e0-e6ea-4165-8204-cf356c87a3f0,
+    language: en,
+    version: 1.0,
+    title: "info-label",
+    description: "How to display an informational text in a label"
+}

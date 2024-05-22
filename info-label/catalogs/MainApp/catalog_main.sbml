@@ -1,0 +1,49 @@
+=begin catalog
+
+=begin content
+
+=begin example
+=begin heading
+@{Device ID}:
+=end heading
+=(object label: type=info, subtype=device-id, style=label_info)=
+=end example
+
+=begin example
+=begin heading
+@{Device Type}:
+=end heading
+=(object label: type=info, subtype=device-type, style=label_info)=
+=end example
+
+=begin example
+=begin heading
+@{Device Name}:
+=end heading
+=(object label: type=info, subtype=device-name, style=label_info)=
+=end example
+
+=begin example
+=begin heading
+@{OS Version}:
+=end heading
+=(object label: type=info, subtype=os-version, style=label_info)=
+=end example
+
+=begin example
+=begin heading
+@{App ID}:
+=end heading
+=(object label: type=info, subtype=app-id, style=label_info)=
+=end example
+
+=begin example
+=begin heading
+@{App Version}:
+=end heading
+=(object label: type=info, subtype=app-version, style=label_info)=
+=end example
+
+=end content
+
+=end catalog
