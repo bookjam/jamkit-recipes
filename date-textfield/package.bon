@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.b18780a7-5e87-45f7-8941-9202cc3628a5,
+    language: en,
+    version: 1.0,
+    title: "date-textfield",
+    description: "How to input a date using a textfield"
+}

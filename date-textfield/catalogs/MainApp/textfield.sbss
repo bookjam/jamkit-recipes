@@ -1,0 +1,18 @@
+import ~/themes.sbss
+
+#textfield_example {
+    width: 1pw-70dp;
+    height: 46dp;
+    position: absolute;
+    gravity: center;
+    font-family: @{$SANS_REGULAR};
+    font-size: 1.2;
+    content-padding: 0 20dp;
+    content-background-color: $COLOR_DARK_WHITE;
+}
+
+if "${scroll-thumb-image}" != "no"
+    #textfield_example {
+        scroll-thumb-image: img_scroll_thumb.png;
+    }
+end

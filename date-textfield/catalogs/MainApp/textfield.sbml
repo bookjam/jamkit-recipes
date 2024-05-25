@@ -1,0 +1,8 @@
+=begin sbml
+
+=object textfield: type=date, placeholder=@{Choose a date}, \
+            text="${date-text}", picker-mode="${picker-mode}", \
+            format="${format}", uses-localized-format="${uses-localized-format}", \
+            style=textfield_example
+
+=end sbml

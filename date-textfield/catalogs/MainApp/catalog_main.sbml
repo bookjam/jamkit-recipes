@@ -1,0 +1,62 @@
+=begin catalog
+
+=object sbml: id=sbml.textfield, filename=textfield.sbml, style=sbml_textfield
+
+=begin options: form=options
+=begin option
+=(object checkbox: id=date-text, value="2023-10-05T14:48:00.000Z", selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=date-text|\
+@{Use =[bold|text]= property for the initial date}\
+]=
+=end option
+=begin option
+=(object checkbox: id=uses-localized-format, value-when-selected=yes, value-when-deselected=no, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=uses-localized-format|\
+@{Set =[bold|uses-localized-format]= property}\
+]=
+=end option
+=begin heading
+◻ picker-mode
+=end heading
+=begin option
+=(object checkbox: id=date-picker-mode, group=picker-mode, select-mode=single, value=date, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=date-picker-mode|\
+=[bold|date]=\
+]=\
+=(object checkbox: id=time-picker-mode, group=picker-mode, select-mode=single, value=time, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=time-picker-mode|\
+=[bold|time]=\
+]=
+=end option
+
+=begin heading
+◻ format
+=end heading
+=begin option
+=(object checkbox: id=format-1, group=format, select-mode=single, value="yyyy-MM-dd HH:mm:ss", selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=format-1|\
+=[bold|yyyy-MM-dd HH:mm:ss]=
+]=
+=end option
+=begin option
+=(object checkbox: id=format-2, group=format, select-mode=single, value="yyyy-MM-dd", selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=format-2|\
+=[bold|yyyy-MM-dd]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=format-3, group=format, select-mode=single, value="HH:mm:ss", selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=format-3|\
+=[bold|HH:mm:ss]=\
+]=
+=end option
+=end options
+
+=end catalog
