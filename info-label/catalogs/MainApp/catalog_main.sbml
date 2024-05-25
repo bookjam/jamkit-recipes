@@ -6,42 +6,56 @@
 =begin heading
 @{Device ID}:
 =end heading
-=(object label: type=info, subtype=device-id, style=label_info)=
+=(object label: type=info, info=device-id, style=label_info)=
 =end example
 
 =begin example
 =begin heading
 @{Device Type}:
 =end heading
-=(object label: type=info, subtype=device-type, style=label_info)=
+=(object label: type=info, info=device-type, style=label_info)=
 =end example
 
 =begin example
 =begin heading
 @{Device Name}:
 =end heading
-=(object label: type=info, subtype=device-name, style=label_info)=
+=(object label: type=info, info=device-name, style=label_info)=
 =end example
 
 =begin example
 =begin heading
 @{OS Version}:
 =end heading
-=(object label: type=info, subtype=os-version, style=label_info)=
+=(object label: type=info, info=os-version, style=label_info)=
 =end example
 
 =begin example
 =begin heading
 @{App ID}:
 =end heading
-=(object label: type=info, subtype=app-id, style=label_info)=
+=(object label: type=info, info=app-id, style=label_info)=
 =end example
 
 =begin example
 =begin heading
 @{App Version}:
 =end heading
-=(object label: type=info, subtype=app-version, style=label_info)=
+=(object label: type=info, info=app-version, style=label_info)=
+=end example
+
+=begin example
+=begin heading
+@{Catalog ID}:
+=end heading
+=(object label: type=info, info=catalog-id, style=label_info)=
+=end example
+
+=begin example
+=begin heading
+@{Catalog Version}:
+=end heading
+=(object label: type=info, info=catalog-version, style=label_info)=
 =end example
 
 =end content
