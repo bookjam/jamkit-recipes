@@ -1,0 +1,16 @@
+{
+    "title": "MainApp Catalog",
+    "version": "1.0",
+    "orientations": [ 
+        "portrait", 
+        "landscape" 
+    ],
+    "strings": {
+        "Portrait": {
+            "ko": "세로 방향"
+        },
+        "Landscape": {
+            "ko": "가로 방향"
+        }
+    }
+}

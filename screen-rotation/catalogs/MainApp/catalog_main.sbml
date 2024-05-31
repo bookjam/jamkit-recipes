@@ -1,0 +1,11 @@
+=begin catalog
+
+=begin content: style=portrait-only
+@{Portrait}
+=end content
+
+=begin content: style=landscape-only
+@{Lanscape}
+=end content
+
+=end catalog

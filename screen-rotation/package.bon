@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.29ac018f-b92a-4f28-a15b-d239a6f8cddb,
+    language: en,
+    version: 1.0,
+    title: "screen-rotation",
+    description: "How to enable screen rotation"
+}
