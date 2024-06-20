@@ -1,0 +1,8 @@
+=begin catalog
+
+=begin buttons
+=object button: label="@{Call deeplink}", script="action_myscript", style="myscript"
+=object button: label="@{Call deeplink with subview}", script="action_myscript_with_subview", style="myscript"
+=end buttons
+
+=end catalog
