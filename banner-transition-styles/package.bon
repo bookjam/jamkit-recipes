@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.0950011f-919b-4b50-a98e-d54e9c09eff6,
+    language: en,
+    version: 1.0,
+    title: "banner-transition-styles",
+    description: "How to change the transition style of a banner"
+}

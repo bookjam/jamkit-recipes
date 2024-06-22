@@ -1,0 +1,70 @@
+=begin catalog
+
+=object sbml: id=sbml.banner, filename=banner.sbml, style=sbml_banner
+
+=begin options: form=options
+=begin heading
+◻ transition-style
+=end heading
+=begin option
+=(object checkbox: id=transition-style-1, group=transition-style, select-mode=single, value=slide, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=transition-style-1|\
+=[bold|slide]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=transition-style-2, group=transition-style, select-mode=single, value=dissolve, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=transition-style-2|\
+=[bold|dissolve]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=transition-style-3, group=transition-style, select-mode=single, value=cross-dissolve, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=transition-style-3|\
+=[bold|cross-dissolve]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=transition-style-4, group=transition-style, select-mode=single, value=none, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=transition-style-4|\
+=[bold|none]=\
+]=
+=end option
+=begin heading
+◻ transition-duration
+=end heading
+=begin option
+=(object checkbox: id=transition-duration-1, group=transition-duration, select-mode=single, value="", selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=transition-duration-1|\
+=[bold|default (0.3)]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=transition-duration-2, group=transition-duration, select-mode=single, value=1.0, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=transition-duration-2|\
+=[bold|1.0]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=transition-duration-3, group=transition-duration, select-mode=single, value=1.5, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=transition-duration-3|\
+=[bold|1.5]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=transition-duration-4, group=transition-duration, select-mode=single, value=3.0, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=transition-duration-4|\
+=[bold|3.0]=\
+]=
+=end option
+=end options
+
+=end catalog

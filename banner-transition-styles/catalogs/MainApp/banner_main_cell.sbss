@@ -1,0 +1,12 @@
+import themes.sbss
+
+#btn_banner {
+    width: 1pw;
+    height: 1ph;
+    position: absolute;
+    gravity: center;
+}
+
+/cell {
+    page-background-color: $COLOR_LIGHT_GRAY;
+}

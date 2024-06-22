@@ -1,0 +1,8 @@
+=begin sbml
+
+=object banner: data-script=feed_data, alternate-name=main, \
+            transition-style="${transition-style}", \
+            transition-duration="${transition-duration}", \
+            style=banner_example
+
+=end sbml

@@ -1,0 +1,5 @@
+=begin cell
+
+=object button: image-url="${image-url}", action="${action}", url="${url}", style=btn_banner
+
+=end cell

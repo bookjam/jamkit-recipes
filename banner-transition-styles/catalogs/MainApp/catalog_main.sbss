@@ -1,0 +1,41 @@
+import themes.sbss
+
+#sbml_banner {
+    width: 1pw;
+    height: 1pw*9/16;
+    margin-top: 1sbh;
+}
+
+#checkbox_option {
+    width: 15dp;
+    height: 15dp;
+    margin: 0 5dp 0 15dp;
+    image: icon_option_unchecked.png;
+    selected-image: icon_option_checked.png;
+    vertical-align: middle;
+}
+
+#bold {
+    font-family: @{$SANS_SEMIBOLD};
+}
+
+/catalog/options/states {
+    margin: 30dp 0;
+    font-family: @{$SANS_REGULAR};
+    font-size: 1.1;
+    text-align: center;
+}
+
+/catalog/options/heading {
+    margin: 30dp 35dp 0 35dp;
+    font-family: @{$SANS_MEDIUM};
+    font-size: 1.1;
+}
+
+/catalog/options/option {
+    margin: 20dp 20dp;
+    font-family: @{$SANS_LIGHT};
+    font-size: 1.0;
+    text-align: left;
+    paragraph-spacing: 0.6em;
+}
