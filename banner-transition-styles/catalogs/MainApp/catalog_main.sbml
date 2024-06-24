@@ -38,10 +38,10 @@
 ◻ transition-duration
 =end heading
 =begin option
-=(object checkbox: id=transition-duration-1, group=transition-duration, select-mode=single, value="", selected=yes, \
+=(object checkbox: id=transition-duration-1, group=transition-duration, select-mode=single, value=0.3, selected=yes, \
             script=generate, form=options, style=checkbox_option)=\
 =[: action=toggle, target=object, object=transition-duration-1|\
-=[bold|default (0.3)]=\
+=[bold|0.3]=\
 ]=
 =end option
 =begin option
@@ -63,6 +63,37 @@
             script=generate, form=options, style=checkbox_option)=\
 =[: action=toggle, target=object, object=transition-duration-4|\
 =[bold|3.0]=\
+]=
+=end option
+=begin heading
+◻ rotate-interval
+=end heading
+=begin option
+=(object checkbox: id=rotate-interval-1, group=rotate-interval, select-mode=single, value=1, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=rotate-interval-1|\
+=[bold|1.0]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=rotate-interval-2, group=rotate-interval, select-mode=single, value=3, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=rotate-interval-2|\
+=[bold|3.0]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=rotate-interval-3, group=rotate-interval, select-mode=single, value=7, selected=yes, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=rotate-interval-3|\
+=[bold|7.0]=\
+]=
+=end option
+=begin option
+=(object checkbox: id=rotate-interval-4, group=rotate-interval, select-mode=single, value=10, selected=no, \
+            script=generate, form=options, style=checkbox_option)=\
+=[: action=toggle, target=object, object=rotate-interval-4|\
+=[bold|10.0]=\
 ]=
 =end option
 =end options

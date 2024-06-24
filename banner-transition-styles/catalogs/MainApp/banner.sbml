@@ -3,6 +3,7 @@
 =object banner: data-script=feed_data, alternate-name=main, \
             transition-style="${transition-style}", \
             transition-duration="${transition-duration}", \
+            rotate-interval="${rotate-interval}", \
             style=banner_example
 
 =end sbml
