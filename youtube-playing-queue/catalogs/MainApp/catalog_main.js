@@ -1,4 +1,4 @@
-const _video_playlist = [
+const _playlist = [
     "pSUydWEqKwE",
     "js1CtxSY38I",
     "zsYSSVoQnP4",
@@ -27,7 +27,7 @@ function _play_video_at_index(index) {
     _current_video_index = index;
     
     view.object("youtube").property({ 
-        "video-id": _video_playlist[_current_video_index]
+        "video-id": _playlist[_current_video_index]
     });
     view.object("youtube").action("play");
 }
@@ -35,7 +35,7 @@ function _play_video_at_index(index) {
 function _get_next_video_index() {
     var next_video_index = _current_video_index + 1;
 
-    if (next_video_index >= _video_playlist.length) {
+    if (next_video_index >= _playlist.length) {
         next_video_index = 0;
     }
 
@@ -46,7 +46,7 @@ function _get_prev_video_index() {
     var prev_video_index = _current_video_index - 1;
 
     if (prev_video_index < 0) {
-        prev_video_index = _video_playlist.length - 1;
+        prev_video_index = _playlist.length - 1;
     }
 
     return prev_video_index;
