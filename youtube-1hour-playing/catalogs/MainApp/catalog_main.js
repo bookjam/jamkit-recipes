@@ -1,11 +1,11 @@
-function on_video_playing() {
+function onVideoPlaying() {
     view.object("timer").action("start");
 }
 
-function on_video_paused() {
+function onVideoPaused() {
     view.object("timer").action("pause");
 }
 
-function on_timer_expired() {
+function onTimerExpired() {
     view.object("youtube").action("stop");
 }

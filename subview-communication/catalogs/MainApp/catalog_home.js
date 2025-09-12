@@ -1,4 +1,4 @@
-function on_loaded() {
+function onLoaded() {
     controller.action("script", {
         "subview": "__MAIN__",
         "script": "call",

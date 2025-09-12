@@ -1,4 +1,4 @@
-function on_loaded() {
+function onLoaded() {
     _publish_event(0);
 }
 

@@ -1,4 +1,4 @@
-function feed_data(keyword, location, length, sortkey, sortorder, handler) {
+function feedData(keyword, location, length, sortkey, sortorder, handler) {
     handler([
         {
             "video-id": "vB3dItmMVXM",

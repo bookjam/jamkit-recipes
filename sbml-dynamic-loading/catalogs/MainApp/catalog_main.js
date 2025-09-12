@@ -1,4 +1,4 @@
-function on_loaded() {
+function onLoaded() {
     if ($data["loaded"] !== "yes") {
         Promise.all([
             [ "Hanyeol",  "1st" ],

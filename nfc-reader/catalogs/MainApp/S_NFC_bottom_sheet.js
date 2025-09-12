@@ -1,6 +1,6 @@
 const nfc = controller.module("nfc-reader");
 
-function on_loaded() {
+function onLoaded() {
     if (nfc.available()) {
         nfc.read(([ message ]) => {
             if (message.count() > 0) {

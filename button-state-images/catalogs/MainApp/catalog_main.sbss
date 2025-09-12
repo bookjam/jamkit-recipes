@@ -1,8 +1,8 @@
 import themes.sbss
 
 #sbml_button {
-    width: 0.8pw;
-    height: 200dp;
+    width: 1pw-60dp;
+    height: 150dp;
     margin-top: 1sbh+60dp;
     content-border-width: 1dp;
     content-border-color: $COLOR_LIGHT_GRAY;

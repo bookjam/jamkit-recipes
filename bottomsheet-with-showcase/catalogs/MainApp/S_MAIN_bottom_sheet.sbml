@@ -1,5 +1,5 @@
 =begin sheet
 
-=object showcase: data-script=feed_data, alternate-name=main, style=showcase_main
+=object showcase: data-script=feedData, alternate-name=main, style=showcase_main
 
 =end sheet

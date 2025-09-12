@@ -7,11 +7,11 @@ const _playlist = [
 ];
 var _current_video_index = 0;
 
-function on_loaded() {
+function onLoaded() {
     _play_video_at_index(0);
 }
 
-function on_video_finished() {
+function onVideoFinished() {
     _play_video_at_index(_get_next_video_index());
 }
 

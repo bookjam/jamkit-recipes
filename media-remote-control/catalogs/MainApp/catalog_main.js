@@ -1,73 +1,73 @@
-const _video_playlist = [
+const _playlist = [
     "pSUydWEqKwE",
     "js1CtxSY38I",
     "zsYSSVoQnP4",
     "dJdqn5v4Dkw",
     "ArmDp-zijuc"
 ];
-var _current_video_index = 0;
+let _currentVideoIndex = 0;
 
-function on_loaded() {
-    _play_video_at_index(0);
+function onLoaded() {
+    _playVideoAtIndex(0);
 }
 
-function on_video_finished() {
-    _play_video_at_index(_get_next_video_index());
+function onVideoFinished() {
+    _playVideoAtIndex(_getNextVideoIndex());
 }
 
-function on_media_control_play() {
+function onMediaControlPlay() {
     view.object("youtube").action("play");
 }
 
-function on_media_control_pause() {
+function onMediaControlPause() {
     view.object("youtube").action("pause");
 }
 
-function on_media_control_next() {
-    _play_video_at_index(_get_next_video_index());
+function onMediaControlNext() {
+    _playVideoAtIndex(_getNextVideoIndex());
 }
 
-function on_media_control_prev() {
-    _play_video_at_index(_get_prev_video_index());
+function onMediaControlPrev() {
+    _playVideoAtIndex(_getPrevVideoIndex());
 }
 
-function on_media_control_seek(params) {
+function onMediaControlSeek(params) {
     view.object("youtube").action("seek", { "time": params["time"] });
 }
 
 function next() {
-    _play_video_at_index(_get_next_video_index());
+    _playVideoAtIndex(_getNextVideoIndex());
 }
 
 function prev() {
-    _play_video_at_index(_get_prev_video_index());
+    _playVideoAtIndex(_getPrevVideoIndex());
 }
 
-function _play_video_at_index(index) {
-    _current_video_index = index;
+function _playVideoAtIndex(index) {
+    _currentVideoIndex = index;
     
     view.object("youtube").property({ 
-        "video-id": _video_playlist[_current_video_index]
+        "video-id": _playlist[_currentVideoIndex]
     });
     view.object("youtube").action("play");
 }
 
-function _get_next_video_index() {
-    var next_video_index = _current_video_index + 1;
+function _getNextVideoIndex() {
+    let nextVideoIndex = _currentVideoIndex + 1;
 
-    if (next_video_index >= _video_playlist.length) {
-        next_video_index = 0;
+    if (nextVideoIndex >= _playlist.length) {
+        nextVideoIndex = 0;
     }
 
-    return next_video_index;
+    return nextVideoIndex;
 }
 
-function _get_prev_video_index() {
-    var prev_video_index = _current_video_index - 1;
+function _getPrevVideoIndex() {
+    let prevVideoIndex = _currentVideoIndex - 1;
 
-    if (prev_video_index < 0) {
-        prev_video_index = _video_playlist.length - 1;
+    if (prevVideoIndex < 0) {
+        prevVideoIndex = _playlist.length - 1;
     }
 
-    return prev_video_index;
+    return prevVideoIndex;
 }

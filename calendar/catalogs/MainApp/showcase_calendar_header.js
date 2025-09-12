@@ -1,18 +1,18 @@
-function go_today() {
+function goToday() {
     owner.action("today");
 }
 
-function go_prev() {
+function goPrev() {
     owner.action("prev");
 }
 
-function go_next() {
+function goNext() {
     owner.action("next");
 }
 
-function change_mode({ mode }) {
+function changeMode({ mode }) {
     owner.action("script", {
-        "script": "change_calendar_mode",
+        "script": "changeCalendarMode",
         "mode": mode
     });
 }

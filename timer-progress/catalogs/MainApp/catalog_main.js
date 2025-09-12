@@ -1,4 +1,4 @@
-function on_timer_expired() {
+function onTimerExpired() {
     controller.action("alert", {
         "message": controller.catalog().string("Timer expired")
     });

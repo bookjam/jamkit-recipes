@@ -4,6 +4,6 @@ function generate(data) {
     }));
 }
 
-function show_info() {
+function showInfo() {
 
 }

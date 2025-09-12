@@ -1,6 +1,6 @@
 =begin sbml
 
-=object button: enabled="${enabled}", selected="${selected}", script=show_info, \
+=object button: enabled="${enabled}", selected="${selected}", script=showInfo, \
             label=@{Button}, highlighted-label=@{Highlighted}, selected-label=@{Selected}, disabled-label=@{Disabled}, \
             image=icon_option_unchecked.png, selected-image=icon_option_checked.png, disabled-image=icon_option_unchecked.png, \
             style=btn_example

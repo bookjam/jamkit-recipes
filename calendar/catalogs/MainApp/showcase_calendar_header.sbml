@@ -1,9 +1,9 @@
 =begin header
 
 =begin left
-=(object button: label="M", mode="monthly", script=change_mode, style=btn_mode.monthly)=\
-=(object button: label="W", mode="weekly", script=change_mode, style=btn_mode.weekly)=\
-=(object button: label="D", mode="daily", script=change_mode, style=btn_mode.daily)=
+=(object button: label="M", mode="monthly", script=changeMode, style=btn_mode.monthly)=\
+=(object button: label="W", mode="weekly", script=changeMode, style=btn_mode.weekly)=\
+=(object button: label="D", mode="daily", script=changeMode, style=btn_mode.daily)=
 =end left
 
 =begin center
@@ -11,9 +11,9 @@ ${year}.${month}
 =end center
 
 =begin right
-=(object button: label="<", script=go_prev, style=btn_arrow)=\
-=(object button: label="TODAY", script=go_today, style=btn_today)=\
-=(object button: label=">", script=go_next, style=btn_arrow)=
+=(object button: label="<", script=goPrev, style=btn_arrow)=\
+=(object button: label="TODAY", script=goToday, style=btn_today)=\
+=(object button: label=">", script=goNext, style=btn_arrow)=
 =end right
 
 =begin weekdays

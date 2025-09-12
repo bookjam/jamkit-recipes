@@ -1,4 +1,4 @@
-function change_calendar_mode({ mode }) {
+function changeCalendarMode({ mode }) {
     view.data("display-unit", {
         "calendar-mode": mode
     });

@@ -1,7 +1,7 @@
 import ~/themes.sbss
 
 #progress_example {
-    width: 200dp;
+    width: 1pw-70dp;
     height: 70dp;
     position: absolute;
     gravity: center;

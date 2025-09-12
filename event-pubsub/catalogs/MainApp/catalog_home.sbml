@@ -1,4 +1,4 @@
-=begin catalog: script-when-loaded=on_loaded
+=begin catalog: script-when-loaded=onLoaded
 
 =begin actions
 =object button: label=@{Open}, action=bottom-sheet, display-unit=S_MAIN, style=btn_action

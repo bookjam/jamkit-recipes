@@ -12,6 +12,6 @@ function done() {
     view.object("btn.example").action("wait-done");
 }
 
-function show_info() {
+function showInfo() {
 
 }

@@ -1,6 +1,6 @@
-=begin catalog: script-when-loaded=on_loaded
+=begin catalog: script-when-loaded=onLoaded
 
-=object youtube: id=youtube, script-when-finished=on_video_finished, style=youtube
+=object youtube: id=youtube, script-when-finished=onVideoFinished, style=youtube
 
 =begin actions
 =(object button: label=@{Prev}, script=prev, style=btn_action)=\

@@ -1,10 +1,10 @@
-function pick_image() {
+function pickImage() {
     controller.action("pick", {
         "media": "image",
-        "script-when-done": "on_pick_image"
+        "script-when-done": "on_pickImage"
     })
 }
 
-function on_pick_image(params) {
+function onPickImage(params) {
     view.object("image").data("image", params["image"]);
 }
