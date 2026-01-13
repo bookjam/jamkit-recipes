@@ -1,0 +1,7 @@
+{
+    id: io.jamkit.recipes.1c4fdeb9-3a33-428c-b08b-f7243b6ae1ac,
+    language: en,
+    version: 1.0,
+    title: "deeplink",
+    description: "How to call the app"
+}
